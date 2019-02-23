@@ -95,6 +95,9 @@ O(n^2): 先对数组排序
 
 有序链表Merge, 使用堆heap
 
+# 26. Remove Duplicates from Sorted Array
+有序数组去重
+
 ## 125. Valid Palindrome
 
 判回文字，这里本地和服务器的结果居然不一致！注意越界问题。isalnum, isalpha用法
