@@ -39,6 +39,17 @@
 - 14. Longest Common Prefix
 最长公共前缀
 
+- 15. 3Sum
+O(n^2logn): 先对数组排序
+选两个数，找第3个数
+去重复数不会降低渐进复杂度
+upper_bound的使用
+
+O(n^2): 先对数组排序
+三个数下标i, j, k
+确定i, 调整j, k
+去重做跳表能加速
+
 - 20. Valid Parenthess
 括号匹配, 栈
 
