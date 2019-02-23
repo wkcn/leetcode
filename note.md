@@ -50,6 +50,9 @@ O(n^2): 先对数组排序
 确定i, 调整j, k
 去重做跳表能加速
 
+- 16. 3Sum Closest
+参考15. 3Sum
+
 - 20. Valid Parenthess
 括号匹配, 栈
 
