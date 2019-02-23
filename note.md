@@ -95,8 +95,17 @@ O(n^2): 先对数组排序
 
 有序链表Merge, 使用堆heap
 
-# 26. Remove Duplicates from Sorted Array
+## 26. Remove Duplicates from Sorted Array
+
 有序数组去重
+
+## 27. Remove Element
+
+去除特定数字
+
+## 31. Next Permutation
+
+字典序
 
 ## 125. Valid Palindrome
 
