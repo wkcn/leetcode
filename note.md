@@ -107,6 +107,18 @@ O(n^2): 先对数组排序
 
 字典序
 
+# 94. Binary Tree Inorder Traversal
+
+二叉树中序遍历，递归算法使用栈Stack
+
+# 100. Same Tree
+
+判断是同样的树
+
+# 101. Symmetric Tree
+
+判断树是否对称, 注意比较顺序
+
 ## 125. Valid Palindrome
 
 判回文字，这里本地和服务器的结果居然不一致！注意越界问题。isalnum, isalpha用法

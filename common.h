@@ -34,7 +34,7 @@ void PRINT_ARRAY(const vector<T> &vs) {
 }
 
 template <typename TreeNode>
-TreeNode* INPUT_BTREE() {
+TreeNode* INPUT_BTREE_VLR() {
   stack<TreeNode**> st;
   TreeNode* root = nullptr;
   st.push(&root);
@@ -49,6 +49,27 @@ TreeNode* INPUT_BTREE() {
       *p = new TreeNode(v);
       st.push(&((*p)->right));
       st.push(&((*p)->left));
+    }
+  }
+  return root;
+}
+
+template <typename TreeNode>
+TreeNode* INPUT_BTREE_LEVEL() {
+  queue<TreeNode**> q;
+  TreeNode* root = nullptr;
+  q.push(&root);
+  int n;
+  cin >> n;
+  while (n--) {
+    int v;
+    cin >> v;
+    TreeNode** p = q.front(); q.pop();
+    if (v) {
+      // valid
+      *p = new TreeNode(v);
+      q.push(&((*p)->left));
+      q.push(&((*p)->right));
     }
   }
   return root;

@@ -29,8 +29,8 @@ class Solution {
 };
 
 int main() {
-  TreeNode* ta = INPUT_BTREE<TreeNode>();
-  TreeNode* tb = INPUT_BTREE<TreeNode>();
+  TreeNode* ta = INPUT_BTREE_LEVEL<TreeNode>();
+  TreeNode* tb = INPUT_BTREE_LEVEL<TreeNode>();
   Solution so;
   cout << so.isSameTree(ta, tb) << endl;
   return 0;
