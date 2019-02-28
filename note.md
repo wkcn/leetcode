@@ -123,6 +123,14 @@ O(n^2): 先对数组排序
 
 判回文字，这里本地和服务器的结果居然不一致！注意越界问题。isalnum, isalpha用法
 
+# 136. Single Number
+
+使用异或xor找出出现次数为奇数数字
+
+## 146. LRU Cache
+
+LRU缓存的实现，双向链表+Hash map
+
 ## 709. To Lower Case
 
 变小写

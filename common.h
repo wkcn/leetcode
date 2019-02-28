@@ -1,5 +1,8 @@
 #include <iostream>
+#include <chrono>
+#include <list>
 #include <vector>
+#include <random>
 #include <string>
 #include <queue>
 #include <set>
@@ -9,6 +12,7 @@
 #include <utility>
 #include <algorithm>
 #include <cstring>
+#include <unistd.h>
 using namespace std;
 
 template <typename T>
@@ -74,3 +78,35 @@ TreeNode* INPUT_BTREE_LEVEL() {
   }
   return root;
 }
+
+class Timer {
+using time_point = std::chrono::steady_clock::time_point;
+using ms_type = std::chrono::duration<int, ratio<1, 1000> >;
+using milliseconds = std::chrono::milliseconds;
+public:
+  Timer(const string name="") : name_(name) {reset();}
+  void tic() {
+    tic_time_ = get_time_now();
+  }
+  void toc() {
+    time_point now_time = get_time_now();
+    cout << "Timer";
+    if (name_.size()) cout << "[" << name_ << "]";
+    cout << ": " << "toc: " << get_time_diff(now_time, tic_time_) << "ms tot: " << get_time_diff(now_time, reset_time_) << "ms" << endl;
+  }
+  void reset() {
+    reset_time_ = get_time_now();
+  }
+private:
+  time_point get_time_now() {
+    return std::chrono::steady_clock::now();
+  }
+  int get_time_diff(time_point a, time_point b) {
+    milliseconds diff = std::chrono::duration_cast<milliseconds>(a - b);
+    return diff.count(); 
+  }
+private:
+  string name_;
+  time_point reset_time_;
+  time_point tic_time_;
+};
