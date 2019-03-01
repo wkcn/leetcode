@@ -79,6 +79,34 @@ TreeNode* INPUT_BTREE_LEVEL() {
   return root;
 }
 
+template <typename ListNode>
+ListNode* INPUT_LIST() {
+  int n;
+  cin >> n;
+  ListNode dummy(0);
+  ListNode *tail = &dummy;
+  while(n--) {
+    int val;
+    cin >> val;
+    tail->next = new ListNode(val);
+    tail = tail->next;
+  }
+  return dummy.next;
+}
+
+template <typename ListNode>
+void PRINT_LIST(ListNode* head) {
+  bool first = true;
+  while(head) {
+    if (!first) cout << " -> ";
+    else first = false;
+    cout << head->val;
+    head = head->next;
+  }
+  cout << endl;
+}
+
+
 class Timer {
 using time_point = std::chrono::steady_clock::time_point;
 using ms_type = std::chrono::duration<int, ratio<1, 1000> >;

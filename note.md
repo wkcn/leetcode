@@ -75,9 +75,14 @@ O(n^2): 先对数组排序
 参考15. 3Sum
 
 ## 18. 4Sum
+
 使用递归算法
 使用估计结果是否存在的方法能将时间从48ms降低到12ms
 减少加法计算次数也能加速，说明编译器没有充分优化
+
+## 19. Remove Nth Node From End of List
+
+移除单链表中倒数第n个元素，使用固定距离的双链表，注意要用dummy结点
 
 ## 20. Valid Parenthess
 
@@ -107,15 +112,15 @@ O(n^2): 先对数组排序
 
 字典序
 
-# 94. Binary Tree Inorder Traversal
+## 94. Binary Tree Inorder Traversal
 
 二叉树中序遍历，递归算法使用栈Stack
 
-# 100. Same Tree
+## 100. Same Tree
 
 判断是同样的树
 
-# 101. Symmetric Tree
+## 101. Symmetric Tree
 
 判断树是否对称, 注意比较顺序
 
@@ -123,9 +128,17 @@ O(n^2): 先对数组排序
 
 判回文字，这里本地和服务器的结果居然不一致！注意越界问题。isalnum, isalpha用法
 
-# 136. Single Number
+## 133. Clone Graph
+
+BFS: 队列+Map
+
+## 136. Single Number
 
 使用异或xor找出出现次数为奇数数字
+
+## 137. Single Number 2
+
+bit的规律
 
 ## 146. LRU Cache
 
