@@ -36,6 +36,17 @@
 
 回文数字
 
+## 10. Regular Expression Matching
+
+动态规划，列出转换方程即可，注意初值
+记T[i][j] = 是否S[0:i]和P[0:j]匹配
+再分类讨论，其中pattern *分为0, 1, more三种类型
+```
+0: i不变, j+1
+1: i+1, j+1
+more: i+1, j不变
+```
+
 ## 11. Container with Most Water
 
 条形图最大面积，归纳法证明
@@ -74,6 +85,12 @@ O(n^2): 先对数组排序
 
 参考15. 3Sum
 
+## 17. Letter Combinations of a Phone Number
+
+枚举，这里用进位法，也可以翻倍逐个输入
+
+要注意空的输入
+
 ## 18. 4Sum
 
 使用递归算法
@@ -100,9 +117,23 @@ O(n^2): 先对数组排序
 
 有序链表Merge, 使用堆heap
 
+## 24. Swap Nodes in Pairs
+
+单向链表，翻转相邻节点，dummy node
+
+## 25. Reverse Nodes in k-Group
+
+单向链表，每次翻转k个节点, 注意指针的改变
+
 ## 26. Remove Duplicates from Sorted Array
 
 有序数组去重
+
+## 29. Divide Two Integers
+
+不使用乘除法实现int32除法
+
+注意临界值, 删除多余操作
 
 ## 27. Remove Element
 
@@ -111,6 +142,33 @@ O(n^2): 先对数组排序
 ## 31. Next Permutation
 
 字典序
+
+## 35. Search Insert Position
+
+返回元素在有序数组中的插入位置
+
+不变式
+
+lower_bound: xx < target [lo, hi) target <= yy
+
+upper_bound: xx <= target [lo, hi) target < yy
+
+
+## 38. Count and Say
+
+用队列优化, 找规律
+
+## 53. Maximum Subarray
+
+最大和子串，动态规划
+
+记串为s, a[i]为[0, i]串中子串的最大和
+
+有a[i] = max(s[i], s[i] + a[i-1]) 
+
+## 70. Climbing Stairs
+
+爬梯子问题，简单动态规划
 
 ## 94. Binary Tree Inorder Traversal
 
@@ -123,6 +181,20 @@ O(n^2): 先对数组排序
 ## 101. Symmetric Tree
 
 判断树是否对称, 注意比较顺序
+
+## 121. Best Time to Buy and Sell Stock
+
+股票，动态规划，注意输入为空的情况
+如果当前股票为历史最低价，那么它一定不是best, 这样可以减少4ms.
+预先用一个变量保存数组长度，也能减少4ms
+
+## 122. Best Time to Buy and Sell Stock II
+
+购买股票，画出折线图找规律
+
+## 123. Best Time to Buy and Sell Stock III
+
+双向动态规划
 
 ## 125. Valid Palindrome
 
@@ -143,6 +215,16 @@ bit的规律
 ## 146. LRU Cache
 
 LRU缓存的实现，双向链表+Hash map
+
+## 207. Course Schedule
+
+判断有向图是否有环
+
+用拓扑算法
+
+不需要判断节点是否被访问, 因为这个过程不会重复
+`int count = qu.size();` 能减少4ms
+
 
 ## 709. To Lower Case
 
