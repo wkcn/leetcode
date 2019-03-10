@@ -1,5 +1,6 @@
 #include <iostream>
 #include <chrono>
+#include <functional>
 #include <list>
 #include <vector>
 #include <random>
@@ -107,6 +108,22 @@ void PRINT_LIST(ListNode* head) {
 }
 
 
+template <typename T>
+void PRINT_MATRIX(const vector<vector<T> > &mat) {
+  int row = mat.size();
+  int col = mat[0].size();
+  for (int r = 0; r < row; ++r) {
+    bool first = true;
+    for (int c = 0; c < col; ++c) {
+      if (!first) cout << " ";
+      else first = false;
+      cout << mat[r][c];
+    }
+    cout << endl;
+  }
+}
+
+
 class Timer {
 using time_point = std::chrono::steady_clock::time_point;
 using ms_type = std::chrono::duration<int, ratio<1, 1000> >;
@@ -124,6 +141,7 @@ public:
   }
   void reset() {
     reset_time_ = get_time_now();
+    tic();
   }
 private:
   time_point get_time_now() {

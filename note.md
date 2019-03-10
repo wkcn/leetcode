@@ -153,10 +153,17 @@ lower_bound: xx < target [lo, hi) target <= yy
 
 upper_bound: xx <= target [lo, hi) target < yy
 
+## 37. Sudoku Solver
+
+不知道为什么，我写的递归方法并不快, 可能分配内存太多了, 或者哪里写得太慢了
 
 ## 38. Count and Say
 
 用队列优化, 找规律
+
+## 39. Combination Sum
+
+递归，回溯，Solution比Solution2递归次数少，也更快
 
 ## 53. Maximum Subarray
 
@@ -165,6 +172,18 @@ upper_bound: xx <= target [lo, hi) target < yy
 记串为s, a[i]为[0, i]串中子串的最大和
 
 有a[i] = max(s[i], s[i] + a[i-1]) 
+
+## 58. Length of Last Word
+
+简单题，需要注意末尾为空格的情况
+
+## 66. Plus One
+
+注意999的情况就好
+
+## 67. Add Binary
+
+注意最低位的index是size - 1, 而且两个数字的长度不一定相同
 
 ## 70. Climbing Stairs
 
@@ -181,6 +200,10 @@ upper_bound: xx <= target [lo, hi) target < yy
 ## 101. Symmetric Tree
 
 判断树是否对称, 注意比较顺序
+
+## 110. Balanced Binary Tree
+
+判断平衡树，递归求子树深度
 
 ## 121. Best Time to Buy and Sell Stock
 
