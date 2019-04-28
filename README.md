@@ -171,9 +171,17 @@ upper_bound: xx <= target [lo, hi) target < yy
 
 由于所求的数字是正数，可以将正数与数组下标对应。用数组下标记录数字是否存在。
 
+## 43. Multiply Strings
+
+大数相乘, 存储已经计算的结果
+
+`for_each`用法
+
 ## 50. Pow(x, n)
 
-第一种方法因为多算了一次base = base * base, 所以变慢了
+Power幂乘
+
+第一种方法因为多算了一次`base = base * base`, 所以变慢了
 
 ## 53. Maximum Subarray
 
