@@ -195,6 +195,13 @@ upper_bound: xx <= target [lo, hi) target < yy
 
 注意最低位的index是size - 1, 而且两个数字的长度不一定相同
 
+## 69. Sqrt(x)
+
+二分搜索，见basic/bisearch.cpp
+注意lower_bound和upper_bound的定义！
+mid * mid <= x 会溢出，mid <= x / mid就不会
+注意特殊条件，如sqrt(0), sqrt(1), sqrt(2)
+
 ## 70. Climbing Stairs
 
 爬梯子问题，简单动态规划
