@@ -167,6 +167,14 @@ upper_bound: xx <= target [lo, hi) target < yy
 
 递归，回溯，Solution比Solution2递归次数少，也更快
 
+## 41. First Missing Positive
+
+由于所求的数字是正数，可以将正数与数组下标对应。用数组下标记录数字是否存在。
+
+## 50. Pow(x, n)
+
+第一种方法因为多算了一次base = base * base, 所以变慢了
+
 ## 53. Maximum Subarray
 
 最大和子串，动态规划
