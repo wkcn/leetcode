@@ -1,3 +1,5 @@
+# Leetcode Solution
+
 ## 1. Two Sum
 
 二重循环遍历
@@ -193,6 +195,21 @@ upper_bound: xx <= target [lo, hi) target < yy
 
 二叉树中序遍历，递归算法使用栈Stack
 
+## 98. Validate Binary Search Tree
+
+验证是否二叉搜索树
+
+涉及到无效值时，可以用指针处理，即指针为nullptr是代表无效值
+
+std::tuple的使用
+
+DFS和BFS对二叉树的遍历：
+https://leetcode.com/problems/validate-binary-search-tree/solution/
+
+二叉树的遍历方式：
+VLR, LVR, LRV, level
+
+
 ## 100. Same Tree
 
 判断是同样的树
@@ -248,6 +265,9 @@ LRU缓存的实现，双向链表+Hash map
 不需要判断节点是否被访问, 因为这个过程不会重复
 `int count = qu.size();` 能减少4ms
 
+## 283. Move Zeroes
+
+In-place移动数字
 
 ## 709. To Lower Case
 
