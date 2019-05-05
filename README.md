@@ -287,6 +287,14 @@ bit的规律
 
 LRU缓存的实现，双向链表+Hash map
 
+## 155. Min Stack
+
+双栈模拟Heap, 单栈记录diff
+
+## 198. House Robber
+
+简单动态规划
+
 ## 207. Course Schedule
 
 判断有向图是否有环
@@ -295,6 +303,14 @@ LRU缓存的实现，双向链表+Hash map
 
 不需要判断节点是否被访问, 因为这个过程不会重复
 `int count = qu.size();` 能减少4ms
+
+## 208. Implement Trie (Prefix Tree)
+
+字典树
+
+## 202. Happy Number
+
+用Slow, Fast指针检测链表是否存在环
 
 ## 283. Move Zeroes
 
