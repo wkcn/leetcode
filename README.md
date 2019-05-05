@@ -214,6 +214,14 @@ mid * mid <= x 会溢出，mid <= x / mid就不会
 
 爬梯子问题，简单动态规划
 
+## 88. Merge Sorted Array
+
+归并排序，空间问题
+
+正序，**反序**遍历
+
+可以O(n)时间实现
+
 ## 94. Binary Tree Inorder Traversal
 
 二叉树中序遍历，递归算法使用栈Stack
