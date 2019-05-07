@@ -1,4 +1,10 @@
 // 区间DP
+// Reference:
+// https://www.cnblogs.com/hsd-/p/6817914.html?utm_source=itdadao&utm_medium=referral
+// http://www.cnblogs.com/hsd-/p/5723801.html
+// https://www.cnblogs.com/lyhhahaha/p/10303524.html
+// https://blog.csdn.net/y752742355/article/details/80051222
+// https://blog.csdn.net/qq_40772692/article/details/80183248
 /*
  *Removal Game
 
