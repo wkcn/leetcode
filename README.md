@@ -191,9 +191,23 @@ Power幂乘
 
 有a[i] = max(s[i], s[i] + a[i-1]) 
 
+## 55. Jump Game
+
+找规律，覆盖，注意边界
+
+## 56. Merge Intervals
+
+合并区间
+
+考虑两区间包含，相交，分离三种情况
+
 ## 58. Length of Last Word
 
 简单题，需要注意末尾为空格的情况
+
+## 59. Spiral Matrix II
+
+while(n--) 没有 while(n-- > 0) 好
 
 ## 62. Unique Paths
 
@@ -207,6 +221,10 @@ Power幂乘
 100x100: 463,1081,1694,8371,8960
 long long: 922,3372,0368,5477,5807
 unsigned long long: 1844,6744,0737,0955,1615
+
+## 64. Minimum Path Sum
+
+简单动归
 
 ## 66. Plus One
 
@@ -226,6 +244,10 @@ mid * mid <= x 会溢出，mid <= x / mid就不会
 ## 70. Climbing Stairs
 
 爬梯子问题，简单动态规划
+
+## 83. Remove Duplicates from Sorted List
+
+有序链表去重，简单题
 
 ## 88. Merge Sorted Array
 
