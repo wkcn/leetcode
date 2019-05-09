@@ -30,6 +30,18 @@ void INPUT_ARRAY(vector<T> &vs) {
 }
 
 template <typename T>
+void INPUT_ARRAY2D(vector<vector<T> > &vs) {
+  int row, col;
+  cin >> row >> col;
+  vs.resize(row, vector<T>(col));
+  for (int r = 0; r < row; ++r) {
+    for (int c = 0; c < col; ++c) {
+      cin >> vs[r][c];
+    }
+  }
+}
+
+template <typename T>
 void PRINT_ARRAY(const vector<T> &vs) {
   bool first = true;
   for (const T &data : vs) {

@@ -195,6 +195,19 @@ Power幂乘
 
 简单题，需要注意末尾为空格的情况
 
+## 62. Unique Paths
+
+简单动归，一维数组即可解决
+
+## 63. Unique Paths II
+
+简单动归，一维数组即可解决
+注意用unsigned long long存储避免溢出
+最大值是多少呢？
+100x100: 463,1081,1694,8371,8960
+long long: 922,3372,0368,5477,5807
+unsigned long long: 1844,6744,0737,0955,1615
+
 ## 66. Plus One
 
 注意999的情况就好
@@ -315,6 +328,10 @@ LRU缓存的实现，双向链表+Hash map
 ## 283. Move Zeroes
 
 In-place移动数字
+
+## 303. Range Sum Query - Immutable
+
+不变数组多次区间求和
 
 ## 709. To Lower Case
 
