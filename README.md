@@ -257,6 +257,12 @@ mid * mid <= x 会溢出，mid <= x / mid就不会
 
 可以O(n)时间实现
 
+## 91. Decode Ways
+
+解码，动态规划，两个变量就可以记录状态。
+
+注意初值设定，特殊情况
+
 ## 94. Binary Tree Inorder Traversal
 
 二叉树中序遍历，递归算法使用栈Stack
@@ -362,6 +368,10 @@ In-place移动数字
 ## 771. Jewels and Stones
 
 数组标记, 数组去重
+
+## 874. Walking Robot Simulation
+
+模拟题。注意审题，用hash降低复杂度
 
 ## 929. Unique Email Address
 
