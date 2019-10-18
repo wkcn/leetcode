@@ -15,6 +15,8 @@ public:
 
 #else
 
+#if 0
+
 class Solution {
 public:
   double Power(double base, int exponent) {
@@ -29,6 +31,25 @@ public:
     return inv ? 1.0 / res : res;
   }
 };
+
+#else
+
+// we should consider the case when exponent is INT32_MIN
+class Solution {
+public:
+  double Power(double base, int exponent) {
+    double res = 1;
+    if (exponent < 0) base = 1 / base;
+    while (exponent != 0) {
+      if (exponent & 1) res *= base;
+      base *= base;
+      exponent /= 2;
+    }
+    return res;
+  }
+};
+
+#endif
 
 #endif
 
