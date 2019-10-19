@@ -380,6 +380,10 @@ In-place移动数字
 
 数组标记, 数组去重
 
+## 848. Shifting Letters 
+
+字母偏移，预先累加
+
 ## 874. Walking Robot Simulation
 
 模拟题。注意审题，用hash降低复杂度
