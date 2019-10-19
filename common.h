@@ -94,6 +94,25 @@ TreeNode* INPUT_BTREE_LEVEL() {
   return root;
 }
 
+template <typename TreeNode>
+void PRINT_BTREE_VLR(TreeNode* root) {
+  if (!root) {
+    cout << "empty tree" << endl;
+  }
+  stack<TreeNode*> q;
+  q.push(root);
+  bool first = true;
+  while (!q.empty()) {
+    TreeNode* r = q.top(); q.pop();
+    if (!first) cout << " ";
+    first = false;
+    cout << r->val;
+    if (r->right) q.push(r->right);
+    if (r->left) q.push(r->left);
+  }
+  cout << endl;
+}
+
 template <typename ListNode>
 ListNode* INPUT_LIST() {
   int n;
