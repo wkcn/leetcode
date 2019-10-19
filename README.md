@@ -332,6 +332,11 @@ LRU缓存的实现，双向链表+Hash map
 
 双栈模拟Heap, 单栈记录diff
 
+## 191. Number of 1 Bits
+
+计算数字的1的个数
+用n&(n-1)位运算，每次可以消掉一个1
+
 ## 198. House Robber
 
 简单动态规划
@@ -360,6 +365,12 @@ In-place移动数字
 ## 303. Range Sum Query - Immutable
 
 不变数组多次区间求和
+
+## 338. Counting Bits
+
+动态规划，数bits数
+
+找规律，位运算
 
 ## 709. To Lower Case
 
