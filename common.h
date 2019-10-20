@@ -113,6 +113,25 @@ void PRINT_BTREE_VLR(TreeNode* root) {
   cout << endl;
 }
 
+template <typename TreeNode>
+void PRINT_BTREE_LEVEL(TreeNode* root) {
+  if (!root) {
+    cout << "empty tree" << endl;
+  }
+  queue<TreeNode*> q;
+  q.push(root);
+  bool first = true;
+  while (!q.empty()) {
+    TreeNode* r = q.front(); q.pop();
+    if (!first) cout << " ";
+    first = false;
+    cout << r->val;
+    if (r->left) q.push(r->left);
+    if (r->right) q.push(r->right);
+  }
+  cout << endl;
+}
+
 template <typename ListNode>
 ListNode* INPUT_LIST() {
   int n;
