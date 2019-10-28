@@ -185,15 +185,26 @@ public:
   void tic() {
     tic_time_ = get_time_now();
   }
-  void toc() {
-    time_point now_time = get_time_now();
+  void toc(bool verbose = true) {
+    toc_time_ = get_time_now();
+    if (verbose) {
+      show();
+    }
+  }
+  void show() {
     cout << "Timer";
     if (name_.size()) cout << "[" << name_ << "]";
-    cout << ": " << "toc: " << get_time_diff(now_time, tic_time_) << "ms tot: " << get_time_diff(now_time, reset_time_) << "ms" << endl;
+    cout << ": " << "toc: " << get_tic_escape() << "ms tot: " << get_reset_escape() << "ms" << endl;
   }
   void reset() {
     reset_time_ = get_time_now();
     tic();
+  }
+  int get_tic_escape() {
+    return get_time_diff(toc_time_, tic_time_);
+  }
+  int get_reset_escape() {
+    return get_time_diff(toc_time_, reset_time_);
   }
 private:
   time_point get_time_now() {
@@ -207,4 +218,5 @@ private:
   string name_;
   time_point reset_time_;
   time_point tic_time_;
+  time_point toc_time_;
 };
