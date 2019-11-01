@@ -1,5 +1,7 @@
 #include "common.h"
 
+#if 1
+
 class Solution {
 public:
     int myAtoi(string str) {
@@ -17,7 +19,10 @@ public:
         // digit
         int res = 0;
         do {
-          if (res > INT_MAX / 10) return neg ? INT_MIN : INT_MAX;
+          int e = c - '0';
+          if (res - INT_MAX / 10 + (e > 7) > 0) {
+            return neg ? INT_MIN : INT_MAX;
+          }
           res *= 10;
           res += c - '0';
           if (res < 0) return neg ? INT_MIN : INT_MAX;
@@ -39,12 +44,51 @@ private:
     }
 };
 
+#else
+
+class Solution {
+public:
+  int myAtoi(string str) {
+    int i = 0;
+    const int len = str.size();
+    while (i < len && str[i] == ' ') ++i;
+    int flag = 1;
+    if (str[i] == '+') ++i;
+    else if (str[i] == '-') {
+      flag = -1;
+      ++i;
+    }
+    int s = 0;
+    for (; i < len; ++i) {
+      char c = str[i];
+      if (c >= '0' && c <= '9') {
+        int e = flag * (c - '0');
+        if (flag < 0) {
+          if (s < (INT_MIN - e) / 10) return INT_MIN; 
+        } else
+          if (s > (INT_MAX - e) / 10) return INT_MAX; 
+        s *= 10;
+        s += e;
+      } else break;
+    }
+    return s;
+  }
+};
+
+
+#endif
+
 int main() {
   Solution so;
+  /*
   cout << so.myAtoi("42") << endl;
   cout << so.myAtoi("   -42") << endl;
   cout << so.myAtoi("4193 with words") << endl;
   cout << so.myAtoi("words and 987") << endl;
   cout << so.myAtoi("-91283472332") << endl;
+  */
+  cout << so.myAtoi("-2147483648") << endl;
+  //cout << so.myAtoi("2147483648") << endl;
+  //cout << so.myAtoi("2147483646") << endl;
   return 0;
 }
