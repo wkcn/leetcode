@@ -8,7 +8,9 @@ struct RandomListNode {
     }
 };
 
-#if 0
+#define SOLUTION 3
+
+#if SOLUTION == 0 
 class Solution {
 public:
   RandomListNode* Clone(RandomListNode* pHead) {
@@ -41,7 +43,7 @@ public:
     return new_head;
   }
 };
-#else
+#elif SOLUTION == 1
 
 class Solution {
 public:
@@ -68,6 +70,49 @@ public:
     return new_head;
   }
 };
+
+#elif SOLUTION == 3
+
+class Solution {
+public:
+  RandomListNode* Clone(RandomListNode* pHead) {
+    if (!pHead) return nullptr;
+    RandomListNode *r = pHead;
+    vector<RandomListNode*> vs;
+    map<RandomListNode*, int> r2id;
+    while (r) {
+      r2id[r] = vs.size();
+      vs.push_back(new RandomListNode(r->label));
+      r = r->next;
+    }
+    for (int i = 0; i < vs.size() - 1; ++i) vs[i]->next = vs[i+1];
+    r = pHead;
+    while (r) {
+      if (r->random) vs[r2id[r]]->random = vs[r2id[r->random]];
+      r = r->next;
+    }
+    return vs[0];
+  }
+};
+
+#else
+
+class Solution {
+public:
+  RandomListNode* Clone(RandomListNode* pHead) {
+    if (!pHead) return nullptr;
+    map<RandomListNode*, RandomListNode*> ma;
+    for (RandomListNode *r = pHead; r; r = r->next) {
+      ma[r] = new RandomListNode(r->label);
+    }
+    for (RandomListNode *r = pHead; r; r = r->next) {
+      ma[r]->next = ma[r->next];
+      ma[r]->random = ma[r->random];
+    }
+    return ma[pHead];
+  }
+};
+
 #endif
 
 void PrintListRandom(RandomListNode* p) {
