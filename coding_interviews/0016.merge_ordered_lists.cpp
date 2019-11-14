@@ -8,6 +8,9 @@ struct ListNode {
 	}
 };
 
+#define SOLUTION 1
+
+#if SOLUTION == 0
 class Solution {
 public:
   ListNode* Merge(ListNode* pHead1, ListNode* pHead2) {
@@ -28,6 +31,26 @@ public:
     return head;
   }
 };
+#else
+
+class Solution {
+public:
+  ListNode* Merge(ListNode* pHead1, ListNode* pHead2) {
+    if (!pHead1) return pHead2;
+    if (!pHead2) return pHead1;
+    ListNode *r;
+    if (pHead1->val <= pHead2->val) {
+      r = pHead1;
+      pHead1->next = Merge(pHead1->next, pHead2);
+    } else {
+      r = pHead2;
+      pHead2->next = Merge(pHead1, pHead2->next);
+    }
+    return r;
+  }
+};
+
+#endif
 
 int main() {
   ListNode* head1 = INPUT_LIST<ListNode>();
