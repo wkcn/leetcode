@@ -14,7 +14,7 @@
  * v[0] = some_function_to_change_the_capacity_of_v();
  * 都是错的
  * https://github.com/wkcn/gcc_bug
- *
+ */
 #include "common.h"
 
 struct TreeNode {
