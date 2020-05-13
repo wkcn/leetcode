@@ -19,3 +19,26 @@ public:
         return isValidBST(root->left, min_node, root) && isValidBST(root->right, root, max_node);
     }
 };
+
+class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+        if (!root) return true;
+        stack<TreeNode*> st;
+        PushLeft(st, root);
+        TreeNode *pre = nullptr;
+        while (!st.empty()) {
+            TreeNode *r = st.top(); st.pop();
+            if (pre && pre->val >= r->val) return false;
+            pre = r;
+            PushLeft(st, r->right);
+        }
+        return true;
+    }
+    void PushLeft(stack<TreeNode*> &st, TreeNode *root) {
+        while (root) {
+            st.push(root);
+            root = root->left;
+        }
+    }
+};
