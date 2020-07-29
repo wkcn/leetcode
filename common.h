@@ -340,9 +340,23 @@ string HEX2STR(const T &c) {
   int len = sizeof(T);
   const uint8_t *p = reinterpret_cast<const uint8_t *>(&c);
   for (int i = len - 1; i >= 0; --i) {
-    uint8_t num = *(p + i);
+    const uint8_t &num = *(p + i);
     res += HEXCH[(num >> 4) & 0xF];
     res += HEXCH[num & 0xF];
+  }
+  return res;
+}
+
+template <typename T>
+string BIN2STR(const T &c) {
+  string res;
+  int len = sizeof(T);
+  const uint8_t *p = reinterpret_cast<const uint8_t *>(&c);
+  for (int i = len - 1; i >= 0; --i) {
+    for (int j = 1 << 7; j > 0; j >>= 1) {
+      const uint8_t &num = *(p + i);
+      res += (num & j) ? '1' : '0';
+    }
   }
   return res;
 }
