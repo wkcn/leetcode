@@ -1,3 +1,4 @@
+// TODO: 用BFS或DFS检测环
 class Solution {
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {

@@ -70,22 +70,22 @@ public:
 class Solution {
 public:
   int findMagicIndex(vector<int>& nums) {
-    queue<pair<int, int> > q;
-    q.push({0, nums.size()});
-    while (!q.empty()) {
-      auto [lo, hi] = q.front(); q.pop();
+    stack<pair<int, int> > st;
+    st.push({0, nums.size()});
+    while (!st.empty()) {
+      auto [lo, hi] = st.top(); st.pop();
       if (lo >= hi) continue;
       if (hi - lo == 1 && nums[lo] == lo) return lo;
       int mid = lo + ((hi - lo) >> 1);
       if (nums[mid] == mid) {
-        q.push({lo, mid});
-        q.push({mid, mid + 1});
+        st.push({mid, mid + 1});
+        st.push({lo, mid});
       } else if (nums[mid] < mid) {
-        q.push({lo, nums[mid] + 1});
-        q.push({mid + 1, hi}); 
+        st.push({mid + 1, hi});
+        st.push({lo, nums[mid] + 1});
       } else {
-        q.push({lo, mid}); 
-        q.push({nums[mid], hi}); 
+        st.push({nums[mid], hi});
+        st.push({lo, mid});
       }
     }
     return -1;

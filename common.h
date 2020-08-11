@@ -50,6 +50,11 @@ float STRING2NUMBER(const string &s) {
 }
 
 template <>
+char STRING2NUMBER(const string &s) {
+  return s[0];
+}
+
+template <>
 double STRING2NUMBER(const string &s) {
   return stod(s);
 }
@@ -149,6 +154,8 @@ void INPUT_ARRAY2D(vector<vector<T>> &vs) {
     }
   }
 }
+
+#define INPUT_MATRIX INPUT_ARRAY2D
 
 template <typename T>
 void PRINT_ARRAY(const vector<T> &vs) {
@@ -269,6 +276,24 @@ void PRINT_BTREE_LEVEL(TreeNode *root) {
     if (r->right) q.push(r->right);
   }
   cout << endl;
+}
+
+template <typename TreeNode>
+TreeNode* BTreeClone(TreeNode *root) {
+  if (!root) return nullptr;
+  TreeNode *r = new TreeNode(root->val);
+  r->left = BTreeClone(root->left);
+  r->right = BTreeClone(root->right);
+  return r;
+}
+
+template <typename TreeNode>
+bool IsSameTree(TreeNode *root1, TreeNode *root2) {
+  if (!root1 && !root2) return true;
+  if (!root1 || !root2) return false;
+  if (root1->val != root2->val) return false;
+  return IsSameTree(root1->left, root2->left) &&
+    IsSameTree(root1->right, root2->right);
 }
 
 template <typename ListNode>
