@@ -183,6 +183,13 @@ void PRINT_ARRAY(const array<T, size> &vs) {
   cout << endl;
 }
 
+template <typename T>
+void PRINT_ARRAY2D(const vector<vector<T> > &vs) {
+  for (auto &v : vs) {
+    PRINT_ARRAY<T>(v);
+  }
+}
+
 vector<int> RANGE(int start, int end) {
   assert(end >= start);
   vector<int> res(end - start);
@@ -355,7 +362,6 @@ void PRINT_MATRIX(const vector<vector<T>> &mat) {
     cout << endl;
   }
 }
-#define PRINT_ARRAY2D PRINT_MATRIX
 
 const char HEXCH[16] = {'0', '1', '2', '3', '4', '5', '6', '7',
                         '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
