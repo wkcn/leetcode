@@ -1,5 +1,6 @@
 // Binary Indexed Tree(B.I.T), Fenwick Tree
 // reference: https://www.cnblogs.com/findview/archive/2019/08/01/11281628.html
+// https://www.cnblogs.com/xenny/p/9739600.html
 #include "common.h"
 
 inline int lowbit(int x) {
