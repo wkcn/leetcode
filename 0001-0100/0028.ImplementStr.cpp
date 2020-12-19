@@ -45,6 +45,7 @@ public:
 // https://leetcode.com/problems/implement-strstr/discuss/12956/C%2B%2B-Brute-Force-and-KMP
 // https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
 
+// KMP
 class Solution {
 public:
   int strStr(string haystack, string needle) {
@@ -79,6 +80,64 @@ private:
     return lps;
   }
 };
+
+#elif SOLUTION == 3
+
+// reference: https://leetcode-cn.com/problems/implement-strstr/solution/bang-ni-ba-kmpsuan-fa-xue-ge-tong-tou-ming-ming-ba/
+class Solution {
+public:
+    int strStr(string haystack, string needle) {
+      // 注意处理空字符串
+      if (needle.empty()) return 0;
+      vector<int> prefix(needle.size(), 0);
+#if 0
+      // 最简单的版本
+      for (int i = 0; i < needle.size(); ++i) {
+        // 长度短不匹配时，长度长的可能匹配；因为前缀后缀都是从左往右读！！
+        for (int k = i; k > 0; --k) {
+          if (needle.substr(0, k) == needle.substr(i - k + 1, k)) {
+            prefix[i] = k;
+            break;
+          }
+        }
+      }
+#else
+      {
+        prefix[0] = 0;
+        int i = 0, j = 1;
+        while (j < needle.size()) {
+          if (needle[i] == needle[j]) {
+            prefix[j] = i + 1;
+            ++i;
+            ++j;
+          } else {
+            // 好好领会，指针为什么这么跳
+            if (i == 0) prefix[j++] = 0;
+            else i = prefix[i - 1];
+          }
+        }
+      }
+#endif
+      // PRINT_ARRAY(prefix);
+      int i = 0, j = 0;
+      while (i < haystack.size()) {
+        // cout << i << ", " << j << endl;
+        // cout << haystack[i] << " vs " << needle[j] << endl;
+        if (haystack[i] == needle[j]) {
+          if (++j == needle.size()) return i - needle.size() + 1;
+          ++i;
+        } else {
+          if (j > 0) {
+            // 是直接赋值！！
+            j = prefix[j - 1];
+            // 要看下一回合是否和haystack[i]匹配
+          } else ++i;
+        }
+      }
+      return -1;
+    }
+};
+
 
 #endif
 
