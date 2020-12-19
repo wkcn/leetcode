@@ -23,7 +23,7 @@ class Problem:
         signs = '()'
         prefix = 'https://leetcode-cn.com/problems/'
         link = ''.join([c for c in self.title.lower() if c not in signs])
-        link = prefix + link.replace(' ', '-').replace(',', '')
+        link = prefix + link.replace(' ', '-').replace(',', '').replace('`', '')
         return link
 
 def difficulty2level(difficulty):
@@ -104,10 +104,13 @@ def get_finished_problems():
 
 FINISHED_PROBLEMS = get_finished_problems()
 
+tqdm.format_interval = lambda days: f'{days} days'
+
 def write_all_problems():
     n = len(FINISHED_PROBLEMS)
     total = len(PROBLEM_LIST)
-    elapsed = (datetime.date.today() - datetime.date(2019, 1, 15)).days
+    days = (datetime.date.today() - datetime.date(2019, 1, 15)).days
+    elapsed = days
     progress = tqdm.format_meter(n, total, elapsed, ncols=100)
 
     with open('problems.md', 'w') as fout:

@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 22%|█████████████▍                                              | 325/1456 [11:44<40:49,  2.17s/it]
+ 22%|███████████▏                                      | 325/1456 [704 days<2449.92 days,  2.17s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -437,7 +437,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[429.N-ary Tree Level Order Traversal](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal)||Medium|
 -|[430.Flatten a Multilevel Doubly Linked List](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list)||Medium|
 -|[431.Encode N-ary Tree to Binary Tree](https://leetcode-cn.com/problems/encode-n-ary-tree-to-binary-tree)||Hard|
--|[432.All O`one Data Structure](https://leetcode-cn.com/problems/all-o`one-data-structure)||Hard|
+-|[432.All O`one Data Structure](https://leetcode-cn.com/problems/all-oone-data-structure)||Hard|
 -|[433.Minimum Genetic Mutation](https://leetcode-cn.com/problems/minimum-genetic-mutation)||Medium|
 ✔|[434.Number of Segments in a String](https://leetcode-cn.com/problems/number-of-segments-in-a-string)|[C++](0434.number-of-segments-in-a-string.cpp)|Easy|
 -|[435.Non-overlapping Intervals](https://leetcode-cn.com/problems/non-overlapping-intervals)||Medium|
