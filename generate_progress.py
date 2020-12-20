@@ -92,13 +92,14 @@ def get_finished_problems():
         if is_solution_dir(dname):
             for fname in os.listdir(dname):
                 name, ext = os.path.splitext(fname)
+                full_name = os.path.join(dname, fname)
                 if ext in EXTS:
                     pid = get_problem_id(fname)
                     if pid is not None:
                         code_type = EXTS[ext]
                         problems.add(pid)
                         if pid in PROBLEM_LIST:
-                            PROBLEM_LIST[pid].solutions.append((code_type, fname))
+                            PROBLEM_LIST[pid].solutions.append((code_type, full_name))
     return problems
 
 
