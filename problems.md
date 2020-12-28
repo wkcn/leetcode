@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 22%|████████▉                               | 326/1456 [705 days<2443.711656441718 days,  2.16s/it]
+ 23%|████████▉                              | 333/1456 [713 days<2404.5015015015015 days,  2.14s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -31,7 +31,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[23.Merge k Sorted Lists](https://leetcode-cn.com/problems/merge-k-sorted-lists)|[C++](0001-0100/0023.Merge-K-Sorted-Lists.cpp), [C++](0001-0100/0023.merge-k-sorted-lists.cpp)|Hard|
 ✔|[24.Swap Nodes in Pairs](https://leetcode-cn.com/problems/swap-nodes-in-pairs)|[C++](0001-0100/0024.Swap-Nodes-in-Pairs.cpp)|Medium|
 ✔|[25.Reverse Nodes in k-Group](https://leetcode-cn.com/problems/reverse-nodes-in-k-group)|[C++](0001-0100/0025.reverse-nodes-in-k-group.cpp)|Hard|
-✔|[26.Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[C++](0001-0100/0026.Remove-Duplicates-from-Sorted-Array.cpp)|Easy|
+✔|[26.Remove Duplicates from Sorted Array](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array)|[C++](0001-0100/0026.Remove-Duplicates-from-Sorted-Array.cpp), [C++](0001-0100/0026.remove-duplicates-from-sorted-array.cpp)|Easy|
 ✔|[27.Remove Element](https://leetcode-cn.com/problems/remove-element)|[C++](0001-0100/0027.Remove-Element.cpp), [C++](0001-0100/0027.remove-element.cpp)|Easy|
 ✔|[28.Implement strStr()](https://leetcode-cn.com/problems/implement-strstr)|[C++](0001-0100/0028.ImplementStr.cpp)|Easy|
 ✔|[29.Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers)|[C++](0001-0100/0029.Divide-Two-Integers.cpp)|Medium|
@@ -90,7 +90,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[82.Remove Duplicates from Sorted List II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii)||Medium|
 ✔|[83.Remove Duplicates from Sorted List](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list)|[C++](0001-0100/0083.Remove-Duplicates-from-Sorted-List.cpp)|Easy|
 ✔|[84.Largest Rectangle in Histogram](https://leetcode-cn.com/problems/largest-rectangle-in-histogram)|[C++](0001-0100/0084.largest-rectangle-in-histogram.cpp)|Hard|
--|[85.Maximal Rectangle](https://leetcode-cn.com/problems/maximal-rectangle)||Hard|
+✔|[85.Maximal Rectangle](https://leetcode-cn.com/problems/maximal-rectangle)|[C++](0001-0100/0085.maximal-rectangle.cpp)|Hard|
 -|[86.Partition List](https://leetcode-cn.com/problems/partition-list)||Medium|
 -|[87.Scramble String](https://leetcode-cn.com/problems/scramble-string)||Hard|
 ✔|[88.Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array)|[C++](0001-0100/0088.Merge-Sorted-Array.cpp)|Easy|
@@ -108,7 +108,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[100.Same Tree](https://leetcode-cn.com/problems/same-tree)|[C++](0001-0100/0100.Same-Tree.cpp), [C++](0001-0100/0100.same-tree.cpp)|Easy|
 ✔|[101.Symmetric Tree](https://leetcode-cn.com/problems/symmetric-tree)|[C++](0101-0200/0101.Symmetric-Tree.cpp), [C++](0101-0200/0101.symmetric-tree.cpp)|Easy|
 ✔|[102.Binary Tree Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-level-order-traversal)|[C++](0101-0200/0102.binary-tree-level-order-traversal.cpp)|Medium|
--|[103.Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)||Medium|
+✔|[103.Binary Tree Zigzag Level Order Traversal](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal)|[C++](0101-0200/0103.binary-tree-zigzag-level-order-traversal.cpp)|Medium|
 ✔|[104.Maximum Depth of Binary Tree](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree)|[C++](0101-0200/0104.maximum-depth-of-binary-tree.cpp)|Easy|
 ✔|[105.Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)|[C++](0101-0200/0105.construct-binary-tree-from-preorder-and-inorder-traversal.cpp)|Medium|
 ✔|[106.Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal)|[C++](0101-0200/0106.construct-binary-tree-from-inorder-and-postorder-traversal.cpp)|Medium|
@@ -193,14 +193,14 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[185.Department Top Three Salaries](https://leetcode-cn.com/problems/department-top-three-salaries)||Hard|
 -|[186.Reverse Words in a String II](https://leetcode-cn.com/problems/reverse-words-in-a-string-ii)||Medium|
 -|[187.Repeated DNA Sequences](https://leetcode-cn.com/problems/repeated-dna-sequences)||Medium|
--|[188.Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)||Hard|
+✔|[188.Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](0101-0200/0188.best-time-to-buy-and-sell-stock-iv.cpp)|Hard|
 ✔|[189.Rotate Array](https://leetcode-cn.com/problems/rotate-array)|[C++](0101-0200/0189.rotate-array.cpp)|Easy|
 -|[190.Reverse Bits](https://leetcode-cn.com/problems/reverse-bits)||Easy|
 ✔|[191.Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits)|[C++](0101-0200/0191.Number-of-1-Bits.cpp), [C++](0101-0200/0191.number-of-1-bits.cpp)|Easy|
 -|[192.Word Frequency](https://leetcode-cn.com/problems/word-frequency)||Medium|
 -|[193.Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers)||Easy|
 -|[194.Transpose File](https://leetcode-cn.com/problems/transpose-file)||Medium|
--|[195.Tenth Line](https://leetcode-cn.com/problems/tenth-line)||Easy|
+✔|[195.Tenth Line](https://leetcode-cn.com/problems/tenth-line)|[Shell](0101-0200/0195.tenth-line.sh)|Easy|
 -|[196.Delete Duplicate Emails](https://leetcode-cn.com/problems/delete-duplicate-emails)||Easy|
 -|[197.Rising Temperature](https://leetcode-cn.com/problems/rising-temperature)||Easy|
 ✔|[198.House Robber](https://leetcode-cn.com/problems/house-robber)|[C++](0101-0200/0198.House-Robber.cpp), [C++](0101-0200/0198.house-robber.cpp)|Easy|
@@ -210,7 +210,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[202.Happy Number](https://leetcode-cn.com/problems/happy-number)|[C++](0201-0300/0202.Happy-Number.cpp), [C++](0201-0300/0202.happy-number.cpp)|Easy|
 -|[203.Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements)||Easy|
 ✔|[204.Count Primes](https://leetcode-cn.com/problems/count-primes)|[C++](0201-0300/0204.count-primes.cpp)|Easy|
--|[205.Isomorphic Strings](https://leetcode-cn.com/problems/isomorphic-strings)||Easy|
+✔|[205.Isomorphic Strings](https://leetcode-cn.com/problems/isomorphic-strings)|[C++](0201-0300/0205.isomorphic-strings.cpp)|Easy|
 ✔|[206.Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list)|[C++](0201-0300/0206.reverse-linked-list.cpp)|Easy|
 ✔|[207.Course Schedule](https://leetcode-cn.com/problems/course-schedule)|[C++](0201-0300/0207.Course-Schedule.cpp), [C++](0201-0300/0207.course-schedule.cpp)|Medium|
 ✔|[208.Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree)|[C++](0201-0300/0208.Implement-Trie.cpp)|Medium|
@@ -460,7 +460,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[452.Minimum Number of Arrows to Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons)|[C++](0401-0500/0452.minimum-number-of-arrows-to-burst-balloons.cpp)|Medium|
 ✔|[453.Minimum Moves to Equal Array Elements](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|[C++](0401-0500/0453.minimum-moves-to-equal-array-elements.cpp)|Easy|
 ✔|[454.4Sum II](https://leetcode-cn.com/problems/4sum-ii)|[C++](0401-0500/0454.4sum-ii.cpp)|Medium|
--|[455.Assign Cookies](https://leetcode-cn.com/problems/assign-cookies)||Easy|
+✔|[455.Assign Cookies](https://leetcode-cn.com/problems/assign-cookies)|[C++](0401-0500/0455.assign-cookies.cpp)|Easy|
 -|[456.132 Pattern](https://leetcode-cn.com/problems/132-pattern)||Medium|
 -|[457.Circular Array Loop](https://leetcode-cn.com/problems/circular-array-loop)||Medium|
 -|[458.Poor Pigs](https://leetcode-cn.com/problems/poor-pigs)||Hard|
@@ -751,7 +751,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[743.Network Delay Time](https://leetcode-cn.com/problems/network-delay-time)||Medium|
 -|[744.Find Smallest Letter Greater Than Target](https://leetcode-cn.com/problems/find-smallest-letter-greater-than-target)||Easy|
 -|[745.Prefix and Suffix Search](https://leetcode-cn.com/problems/prefix-and-suffix-search)||Hard|
--|[746.Min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs)||Easy|
+✔|[746.Min Cost Climbing Stairs](https://leetcode-cn.com/problems/min-cost-climbing-stairs)|[C++](0701-0800/0746.min-cost-climbing-stairs.cpp)|Easy|
 -|[747.Largest Number At Least Twice of Others](https://leetcode-cn.com/problems/largest-number-at-least-twice-of-others)||Easy|
 -|[748.Shortest Completing Word](https://leetcode-cn.com/problems/shortest-completing-word)||Easy|
 -|[749.Contain Virus](https://leetcode-cn.com/problems/contain-virus)||Hard|

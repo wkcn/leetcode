@@ -7,6 +7,7 @@ EXTS = dict([
     ('.py', 'Python'),
     ('.rs', 'Rust'),
     ('.scala', 'Scala'),
+    ('.sh', 'Shell'),
 ])
 
 
