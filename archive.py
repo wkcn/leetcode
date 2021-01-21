@@ -5,12 +5,14 @@ for fname in os.listdir('.'):
     if ext in ['.cpp', '.py', '.rs', '.scala', '.sh']:
         for c in ['.', '-']:
             if c in name:
-                sp = name.split(c)
+                fi = name.find(c)
+                if fi == -1:
+                    continue
                 try:
-                    tid = int(sp[0])
+                    tid = int(name[:fi])
                 except Exception:
                     continue
-                tname = sp[1]
+                tname = name[fi + 1:]
                 print(tid, tname)
                 new_name = '%.4d%s%s' % (tid, c, tname) + ext
                 # 1: 1 - 100
