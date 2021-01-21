@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 25%|█████████▋                             | 360/1456 [719 days<2188.9555555555557 days,  2.00s/it]
+ 26%|██████████                             | 376/1456 [737 days<2116.9148936170213 days,  1.96s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -45,7 +45,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[37.Sudoku Solver](https://leetcode-cn.com/problems/sudoku-solver)|[C++](0001-0100/0037.Sudoku-Solver.cpp), [C++](0001-0100/0037.sudoku-solver.cpp)|Hard|
 ✔|[38.Count and Say](https://leetcode-cn.com/problems/count-and-say)|[C++](0001-0100/0038.Count-and-Say.cpp), [C++](0001-0100/0038.count-and-say.cpp)|Easy|
 ✔|[39.Combination Sum](https://leetcode-cn.com/problems/combination-sum)|[C++](0001-0100/0039.Combination-Sum.cpp), [C++](0001-0100/0039.combination-sum.cpp)|Medium|
--|[40.Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii)||Medium|
+✔|[40.Combination Sum II](https://leetcode-cn.com/problems/combination-sum-ii)|[C++](0001-0100/0040.combination-sum-ii.cpp)|Medium|
 ✔|[41.First Missing Positive](https://leetcode-cn.com/problems/first-missing-positive)|[C++](0001-0100/0041.First-Missing-Positive.cpp), [C++](0001-0100/0041.first-missing-positive.cpp)|Hard|
 ✔|[42.Trapping Rain Water](https://leetcode-cn.com/problems/trapping-rain-water)|[C++](0001-0100/0042.trapping-rain-water.cpp)|Hard|
 ✔|[43.Multiply Strings](https://leetcode-cn.com/problems/multiply-strings)|[C++](0001-0100/0043.Multiply-Strings.cpp), [C++](0001-0100/0043.multiply-strings.cpp)|Medium|
@@ -93,9 +93,9 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[85.Maximal Rectangle](https://leetcode-cn.com/problems/maximal-rectangle)|[C++](0001-0100/0085.maximal-rectangle.cpp)|Hard|
 ✔|[86.Partition List](https://leetcode-cn.com/problems/partition-list)|[C++](0001-0100/0086.partition-list.cpp)|Medium|
 -|[87.Scramble String](https://leetcode-cn.com/problems/scramble-string)||Hard|
-✔|[88.Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array)|[C++](0001-0100/0088.Merge-Sorted-Array.cpp), [C++](0001-0100/0088.merge-sorted-array.cpp)|Easy|
+✔|[88.Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array)|[C++](0001-0100/0088.Merge-Sorted-Array.cpp), [C++](0001-0100/0088.merge-sorted-array.cpp), [Rust](0001-0100/0088-Merge.rs)|Easy|
 -|[89.Gray Code](https://leetcode-cn.com/problems/gray-code)||Medium|
--|[90.Subsets II](https://leetcode-cn.com/problems/subsets-ii)||Medium|
+✔|[90.Subsets II](https://leetcode-cn.com/problems/subsets-ii)|[Rust](0001-0100/0090-subsets.rs)|Medium|
 ✔|[91.Decode Ways](https://leetcode-cn.com/problems/decode-ways)|[C++](0001-0100/0091.DecodeWays.cpp), [C++](0001-0100/0091.decode-ways.cpp)|Medium|
 -|[92.Reverse Linked List II](https://leetcode-cn.com/problems/reverse-linked-list-ii)||Medium|
 -|[93.Restore IP Addresses](https://leetcode-cn.com/problems/restore-ip-addresses)||Medium|
@@ -128,7 +128,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[120.Triangle](https://leetcode-cn.com/problems/triangle)|[C++](0101-0200/0120.triangle.cpp)|Medium|
 ✔|[121.Best Time to Buy and Sell Stock](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock)|[C++](0101-0200/0121.Best-Time-to-Buy-and-Sell-Stock.cpp)|Easy|
 ✔|[122.Best Time to Buy and Sell Stock II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii)|[C++](0101-0200/0122.Best-Time-to-Buy-and-Sell-Stock2.cpp)|Easy|
-✔|[123.Best Time to Buy and Sell Stock III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|[C++](0101-0200/0123.Best-Time-to-Buy-and-Sell-Stock3.cpp)|Hard|
+✔|[123.Best Time to Buy and Sell Stock III](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iii)|[C++](0101-0200/0123.Best-Time-to-Buy-and-Sell-Stock3.cpp), [C++](0101-0200/0123.best-time-to-buy-and-sell-stock-iii.cpp)|Hard|
 ✔|[124.Binary Tree Maximum Path Sum](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum)|[C++](0101-0200/0124.binary-tree-maximum-path-sum.cpp)|Hard|
 ✔|[125.Valid Palindrome](https://leetcode-cn.com/problems/valid-palindrome)|[C++](0101-0200/0125.Valid-Palindrome.cpp), [C++](0101-0200/0125.valid-palindrome.cpp)|Easy|
 ✔|[126.Word Ladder II](https://leetcode-cn.com/problems/word-ladder-ii)|[C++](0101-0200/0126.word-ladder-ii.cpp)|Hard|
@@ -224,7 +224,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[216.Combination Sum III](https://leetcode-cn.com/problems/combination-sum-iii)|[C++](0201-0300/0216.combination-sum-iii.cpp)|Medium|
 ✔|[217.Contains Duplicate](https://leetcode-cn.com/problems/contains-duplicate)|[C++](0201-0300/0217.contains-duplicate.cpp)|Easy|
 -|[218.The Skyline Problem](https://leetcode-cn.com/problems/the-skyline-problem)||Hard|
--|[219.Contains Duplicate II](https://leetcode-cn.com/problems/contains-duplicate-ii)||Easy|
+✔|[219.Contains Duplicate II](https://leetcode-cn.com/problems/contains-duplicate-ii)|[C++](0201-0300/0219.contains-duplicate-ii.cpp)|Easy|
 -|[220.Contains Duplicate III](https://leetcode-cn.com/problems/contains-duplicate-iii)||Medium|
 ✔|[221.Maximal Square](https://leetcode-cn.com/problems/maximal-square)|[C++](0201-0300/0221.maximal-square.cpp)|Medium|
 ✔|[222.Count Complete Tree Nodes](https://leetcode-cn.com/problems/count-complete-tree-nodes)|[C++](0201-0300/0222.count-complete-tree-nodes.cpp)|Medium|
@@ -265,7 +265,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[257.Binary Tree Paths](https://leetcode-cn.com/problems/binary-tree-paths)|[C++](0201-0300/0257.binary-tree-paths.cpp)|Easy|
 ✔|[258.Add Digits](https://leetcode-cn.com/problems/add-digits)|[C++](0201-0300/0258.add-digits.cpp)|Easy|
 -|[259.3Sum Smaller](https://leetcode-cn.com/problems/3sum-smaller)||Medium|
--|[260.Single Number III](https://leetcode-cn.com/problems/single-number-iii)||Medium|
+✔|[260.Single Number III](https://leetcode-cn.com/problems/single-number-iii)|[C++](0201-0300/0260.single-number-iii.cpp)|Medium|
 -|[261.Graph Valid Tree](https://leetcode-cn.com/problems/graph-valid-tree)||Medium|
 -|[262.Trips and Users](https://leetcode-cn.com/problems/trips-and-users)||Hard|
 ✔|[263.Ugly Number](https://leetcode-cn.com/problems/ugly-number)|[C++](0201-0300/0263.ugly-number.cpp)|Easy|
@@ -404,7 +404,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[396.Rotate Function](https://leetcode-cn.com/problems/rotate-function)|[C++](0301-0400/0396.rotate-function.cpp)|Medium|
 -|[397.Integer Replacement](https://leetcode-cn.com/problems/integer-replacement)||Medium|
 -|[398.Random Pick Index](https://leetcode-cn.com/problems/random-pick-index)||Medium|
--|[399.Evaluate Division](https://leetcode-cn.com/problems/evaluate-division)||Medium|
+✔|[399.Evaluate Division](https://leetcode-cn.com/problems/evaluate-division)|[C++](0301-0400/0399.evaluate-division.cpp)|Medium|
 -|[400.Nth Digit](https://leetcode-cn.com/problems/nth-digit)||Medium|
 ✔|[401.Binary Watch](https://leetcode-cn.com/problems/binary-watch)|[C++](0401-0500/0401.binary-watch.cpp)|Easy|
 ✔|[402.Remove K Digits](https://leetcode-cn.com/problems/remove-k-digits)|[C++](0401-0500/0402.remove-k-digits.cpp)|Medium|
@@ -514,7 +514,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[506.Relative Ranks](https://leetcode-cn.com/problems/relative-ranks)|[C++](0501-0600/0506.relative-ranks.cpp)|Easy|
 ✔|[507.Perfect Number](https://leetcode-cn.com/problems/perfect-number)|[C++](0501-0600/0507.perfect-number.cpp)|Easy|
 -|[508.Most Frequent Subtree Sum](https://leetcode-cn.com/problems/most-frequent-subtree-sum)||Medium|
--|[509.Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number)||Easy|
+✔|[509.Fibonacci Number](https://leetcode-cn.com/problems/fibonacci-number)|[C++](0501-0600/0509.fibonacci-number.cpp)|Easy|
 -|[510.Inorder Successor in BST II](https://leetcode-cn.com/problems/inorder-successor-in-bst-ii)||Medium|
 -|[511.Game Play Analysis I](https://leetcode-cn.com/problems/game-play-analysis-i)||Easy|
 -|[512.Game Play Analysis II](https://leetcode-cn.com/problems/game-play-analysis-ii)||Easy|
@@ -552,7 +552,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[544.Output Contest Matches](https://leetcode-cn.com/problems/output-contest-matches)||Medium|
 -|[545.Boundary of Binary Tree](https://leetcode-cn.com/problems/boundary-of-binary-tree)||Medium|
 ✔|[546.Remove Boxes](https://leetcode-cn.com/problems/remove-boxes)|[C++](0501-0600/0546.remove-boxes.cpp)|Hard|
-✔|[547.Friend Circles](https://leetcode-cn.com/problems/friend-circles)|[C++](0501-0600/0547.friend-circles.cpp)|Medium|
+✔|[547.Friend Circles](https://leetcode-cn.com/problems/friend-circles)|[C++](0501-0600/0547.friend-circles.cpp), [C++](0501-0600/0547.number-of-provinces.cpp)|Medium|
 -|[548.Split Array with Equal Sum](https://leetcode-cn.com/problems/split-array-with-equal-sum)||Medium|
 -|[549.Binary Tree Longest Consecutive Sequence II](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence-ii)||Medium|
 -|[550.Game Play Analysis IV](https://leetcode-cn.com/problems/game-play-analysis-iv)||Medium|
@@ -726,7 +726,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[718.Maximum Length of Repeated Subarray](https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray)||Medium|
 -|[719.Find K-th Smallest Pair Distance](https://leetcode-cn.com/problems/find-k-th-smallest-pair-distance)||Hard|
 -|[720.Longest Word in Dictionary](https://leetcode-cn.com/problems/longest-word-in-dictionary)||Easy|
--|[721.Accounts Merge](https://leetcode-cn.com/problems/accounts-merge)||Medium|
+✔|[721.Accounts Merge](https://leetcode-cn.com/problems/accounts-merge)|[C++](0701-0800/0721.accounts-merge.cpp)|Medium|
 -|[722.Remove Comments](https://leetcode-cn.com/problems/remove-comments)||Medium|
 -|[723.Candy Crush](https://leetcode-cn.com/problems/candy-crush)||Medium|
 -|[724.Find Pivot Index](https://leetcode-cn.com/problems/find-pivot-index)||Easy|
@@ -808,7 +808,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[800.Similar RGB Color](https://leetcode-cn.com/problems/similar-rgb-color)||Easy|
 -|[801.Minimum Swaps To Make Sequences Increasing](https://leetcode-cn.com/problems/minimum-swaps-to-make-sequences-increasing)||Medium|
 ✔|[802.Find Eventual Safe States](https://leetcode-cn.com/problems/find-eventual-safe-states)|[C++](0801-0900/0802.find-eventual-safe-states.cpp), [C++](0801-0900/0802.short-encoding-of-words.cpp)|Medium|
--|[803.Bricks Falling When Hit](https://leetcode-cn.com/problems/bricks-falling-when-hit)||Hard|
+✔|[803.Bricks Falling When Hit](https://leetcode-cn.com/problems/bricks-falling-when-hit)|[C++](0801-0900/0803.bricks-falling-when-hit.cpp)|Hard|
 ✔|[804.Unique Morse Code Words](https://leetcode-cn.com/problems/unique-morse-code-words)|[Python](0801-0900/0804.unique-morse-code-words.py)|Easy|
 -|[805.Split Array With Same Average](https://leetcode-cn.com/problems/split-array-with-same-average)||Hard|
 -|[806.Number of Lines To Write String](https://leetcode-cn.com/problems/number-of-lines-to-write-string)||Easy|
@@ -835,7 +835,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[827.Making A Large Island](https://leetcode-cn.com/problems/making-a-large-island)||Hard|
 -|[828.Unique Letter String](https://leetcode-cn.com/problems/unique-letter-string)||Hard|
 -|[829.Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum)||Hard|
--|[830.Positions of Large Groups](https://leetcode-cn.com/problems/positions-of-large-groups)||Easy|
+✔|[830.Positions of Large Groups](https://leetcode-cn.com/problems/positions-of-large-groups)|[C++](0801-0900/0830.positions-of-large-groups.cpp)|Easy|
 -|[831.Masking Personal Information](https://leetcode-cn.com/problems/masking-personal-information)||Medium|
 -|[832.Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image)||Easy|
 -|[833.Find And Replace in String](https://leetcode-cn.com/problems/find-and-replace-in-string)||Medium|
@@ -952,7 +952,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[944.Delete Columns to Make Sorted](https://leetcode-cn.com/problems/delete-columns-to-make-sorted)||Easy|
 ✔|[945.Minimum Increment to Make Array Unique](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique)|[C++](0901-1000/0945.minimum-increment-to-make-array-unique.cpp)|Medium|
 -|[946.Validate Stack Sequences](https://leetcode-cn.com/problems/validate-stack-sequences)||Medium|
--|[947.Most Stones Removed with Same Row or Column](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column)||Medium|
+✔|[947.Most Stones Removed with Same Row or Column](https://leetcode-cn.com/problems/most-stones-removed-with-same-row-or-column)|[C++](0901-1000/0947.most-stones-removed-with-same-row-or-column.cpp)|Medium|
 -|[948.Bag of Tokens](https://leetcode-cn.com/problems/bag-of-tokens)||Medium|
 -|[949.Largest Time for Given Digits](https://leetcode-cn.com/problems/largest-time-for-given-digits)||Easy|
 -|[950.Reveal Cards In Increasing Order](https://leetcode-cn.com/problems/reveal-cards-in-increasing-order)||Medium|
@@ -1023,7 +1023,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1015.Smallest Integer Divisible by K](https://leetcode-cn.com/problems/smallest-integer-divisible-by-k)||Medium|
 -|[1016.Binary String With Substrings Representing 1 To N](https://leetcode-cn.com/problems/binary-string-with-substrings-representing-1-to-n)||Medium|
 -|[1017.Convert to Base -2](https://leetcode-cn.com/problems/convert-to-base--2)||Medium|
--|[1018.Binary Prefix Divisible By 5](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5)||Easy|
+✔|[1018.Binary Prefix Divisible By 5](https://leetcode-cn.com/problems/binary-prefix-divisible-by-5)|[C++](1001-1100/1018.binary-prefix-divisible-by-5.cpp)|Easy|
 -|[1019.Next Greater Node In Linked List](https://leetcode-cn.com/problems/next-greater-node-in-linked-list)||Medium|
 -|[1020.Number of Enclaves](https://leetcode-cn.com/problems/number-of-enclaves)||Medium|
 -|[1021.Remove Outermost Parentheses](https://leetcode-cn.com/problems/remove-outermost-parentheses)||Easy|
@@ -1205,8 +1205,8 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1199.Minimum Time to Build Blocks](https://leetcode-cn.com/problems/minimum-time-to-build-blocks)||Hard|
 -|[1200.Minimum Absolute Difference](https://leetcode-cn.com/problems/minimum-absolute-difference)||Easy|
 -|[1201.Ugly Number III](https://leetcode-cn.com/problems/ugly-number-iii)||Medium|
--|[1202.Smallest String With Swaps](https://leetcode-cn.com/problems/smallest-string-with-swaps)||Medium|
--|[1203.Sort Items by Groups Respecting Dependencies](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies)||Hard|
+✔|[1202.Smallest String With Swaps](https://leetcode-cn.com/problems/smallest-string-with-swaps)|[C++](1201-1300/1202.smallest-string-with-swaps.cpp)|Medium|
+✔|[1203.Sort Items by Groups Respecting Dependencies](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies)|[C++](1201-1300/1203.sort-items-by-groups-respecting-dependencies.cpp)|Hard|
 -|[1204.Last Person to Fit in the Elevator](https://leetcode-cn.com/problems/last-person-to-fit-in-the-elevator)||Medium|
 -|[1205.Monthly Transactions II](https://leetcode-cn.com/problems/monthly-transactions-ii)||Medium|
 -|[1206.Design Skiplist](https://leetcode-cn.com/problems/design-skiplist)||Hard|
@@ -1235,7 +1235,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1229.Meeting Scheduler](https://leetcode-cn.com/problems/meeting-scheduler)||Medium|
 -|[1230.Toss Strange Coins](https://leetcode-cn.com/problems/toss-strange-coins)||Medium|
 -|[1231.Divide Chocolate](https://leetcode-cn.com/problems/divide-chocolate)||Hard|
--|[1232.Check If It Is a Straight Line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line)||Easy|
+✔|[1232.Check If It Is a Straight Line](https://leetcode-cn.com/problems/check-if-it-is-a-straight-line)|[C++](1201-1300/1232.check-if-it-is-a-straight-line.cpp)|Easy|
 -|[1233.Remove Sub-Folders from the Filesystem](https://leetcode-cn.com/problems/remove-sub-folders-from-the-filesystem)||Medium|
 -|[1234.Replace the Substring for Balanced String](https://leetcode-cn.com/problems/replace-the-substring-for-balanced-string)||Medium|
 -|[1235.Maximum Profit in Job Scheduling](https://leetcode-cn.com/problems/maximum-profit-in-job-scheduling)||Hard|
