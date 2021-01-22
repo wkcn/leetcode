@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 26%|██████████                             | 376/1456 [737 days<2116.9148936170213 days,  1.96s/it]
+ 26%|██████████▏                            | 380/1456 [738 days<2089.7052631578945 days,  1.94s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -142,7 +142,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[134.Gas Station](https://leetcode-cn.com/problems/gas-station)|[C++](0101-0200/0134.gas-station.cpp)|Medium|
 -|[135.Candy](https://leetcode-cn.com/problems/candy)||Hard|
 ✔|[136.Single Number](https://leetcode-cn.com/problems/single-number)|[C++](0101-0200/0136.Single-Number.cpp), [C++](0101-0200/0136.single-number.cpp)|Easy|
-✔|[137.Single Number II](https://leetcode-cn.com/problems/single-number-ii)|[C++](0101-0200/0137.Single-Number2.cpp)|Medium|
+✔|[137.Single Number II](https://leetcode-cn.com/problems/single-number-ii)|[C++](0101-0200/0137.Single-Number2.cpp), [Rust](0101-0200/0137-single-number-ii.rs)|Medium|
 -|[138.Copy List with Random Pointer](https://leetcode-cn.com/problems/copy-list-with-random-pointer)||Medium|
 -|[139.Word Break](https://leetcode-cn.com/problems/word-break)||Medium|
 -|[140.Word Break II](https://leetcode-cn.com/problems/word-break-ii)||Hard|
@@ -350,7 +350,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[342.Power of Four](https://leetcode-cn.com/problems/power-of-four)||Easy|
 ✔|[343.Integer Break](https://leetcode-cn.com/problems/integer-break)|[C++](0301-0400/0343.integer-break.cpp)|Medium|
 ✔|[344.Reverse String](https://leetcode-cn.com/problems/reverse-string)|[C++](0301-0400/0344.reverse-string.cpp)|Easy|
--|[345.Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)||Easy|
+✔|[345.Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[Rust](0301-0400/0345-reverse-vowels-of-a-string.rs)|Easy|
 -|[346.Moving Average from Data Stream](https://leetcode-cn.com/problems/moving-average-from-data-stream)||Easy|
 ✔|[347.Top K Frequent Elements](https://leetcode-cn.com/problems/top-k-frequent-elements)|[C++](0301-0400/0347.top-k-frequent-elements.cpp)|Medium|
 -|[348.Design Tic-Tac-Toe](https://leetcode-cn.com/problems/design-tic-tac-toe)||Medium|
@@ -405,7 +405,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[397.Integer Replacement](https://leetcode-cn.com/problems/integer-replacement)||Medium|
 -|[398.Random Pick Index](https://leetcode-cn.com/problems/random-pick-index)||Medium|
 ✔|[399.Evaluate Division](https://leetcode-cn.com/problems/evaluate-division)|[C++](0301-0400/0399.evaluate-division.cpp)|Medium|
--|[400.Nth Digit](https://leetcode-cn.com/problems/nth-digit)||Medium|
+✔|[400.Nth Digit](https://leetcode-cn.com/problems/nth-digit)|[Rust](0301-0400/0400-nth-digit.rs)|Medium|
 ✔|[401.Binary Watch](https://leetcode-cn.com/problems/binary-watch)|[C++](0401-0500/0401.binary-watch.cpp)|Easy|
 ✔|[402.Remove K Digits](https://leetcode-cn.com/problems/remove-k-digits)|[C++](0401-0500/0402.remove-k-digits.cpp)|Medium|
 -|[403.Frog Jump](https://leetcode-cn.com/problems/frog-jump)||Hard|
@@ -446,7 +446,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[438.Find All Anagrams in a String](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string)||Medium|
 -|[439.Ternary Expression Parser](https://leetcode-cn.com/problems/ternary-expression-parser)||Medium|
 -|[440.K-th Smallest in Lexicographical Order](https://leetcode-cn.com/problems/k-th-smallest-in-lexicographical-order)||Hard|
--|[441.Arranging Coins](https://leetcode-cn.com/problems/arranging-coins)||Easy|
+✔|[441.Arranging Coins](https://leetcode-cn.com/problems/arranging-coins)|[Rust](0401-0500/0441-arranging-coins.rs)|Easy|
 ✔|[442.Find All Duplicates in an Array](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array)|[C++](0401-0500/0442.find-all-duplicates-in-an-array.cpp)|Medium|
 ✔|[443.String Compression](https://leetcode-cn.com/problems/string-compression)|[C++](0401-0500/0443.string-compression.cpp)|Easy|
 -|[444.Sequence Reconstruction](https://leetcode-cn.com/problems/sequence-reconstruction)||Medium|
@@ -994,7 +994,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[986.Interval List Intersections](https://leetcode-cn.com/problems/interval-list-intersections)||Medium|
 -|[987.Vertical Order Traversal of a Binary Tree](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree)||Medium|
 -|[988.Smallest String Starting From Leaf](https://leetcode-cn.com/problems/smallest-string-starting-from-leaf)||Medium|
--|[989.Add to Array-Form of Integer](https://leetcode-cn.com/problems/add-to-array-form-of-integer)||Easy|
+✔|[989.Add to Array-Form of Integer](https://leetcode-cn.com/problems/add-to-array-form-of-integer)|[Rust](0901-1000/0989-add-to-array-form-of-integer.rs)|Easy|
 ✔|[990.Satisfiability of Equality Equations](https://leetcode-cn.com/problems/satisfiability-of-equality-equations)|[C++](0901-1000/0990.satisfiability-of-equality-equations.cpp)|Medium|
 -|[991.Broken Calculator](https://leetcode-cn.com/problems/broken-calculator)||Medium|
 -|[992.Subarrays with K Different Integers](https://leetcode-cn.com/problems/subarrays-with-k-different-integers)||Hard|
