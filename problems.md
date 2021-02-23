@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 29%|███████████▋                            | 427/1456 [767 days<1848.344262295082 days,  1.80s/it]
+ 31%|████████████████▎                                    | 448/1456 [771 days<1735 days,  1.72s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -771,7 +771,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[763.Partition Labels](https://leetcode-cn.com/problems/partition-labels)|[C++](0701-0800/0763.partition-labels.cpp)|Medium|
 -|[764.Largest Plus Sign](https://leetcode-cn.com/problems/largest-plus-sign)||Medium|
 ✔|[765.Couples Holding Hands](https://leetcode-cn.com/problems/couples-holding-hands)|[C++](0701-0800/0765.couples-holding-hands.cpp), [Rust](0701-0800/0765-couples-holding-hands.rs)|Hard|
--|[766.Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix)||Easy|
+✔|[766.Toeplitz Matrix](https://leetcode-cn.com/problems/toeplitz-matrix)|[Rust](0701-0800/0766-toeplitz-matrix.rs)|Easy|
 ✔|[767.Reorganize String](https://leetcode-cn.com/problems/reorganize-string)|[C++](0701-0800/0767.reorganize-string.cpp)|Medium|
 -|[768.Max Chunks To Make Sorted II](https://leetcode-cn.com/problems/max-chunks-to-make-sorted-ii)||Hard|
 -|[769.Max Chunks To Make Sorted](https://leetcode-cn.com/problems/max-chunks-to-make-sorted)||Medium|
@@ -837,7 +837,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[829.Consecutive Numbers Sum](https://leetcode-cn.com/problems/consecutive-numbers-sum)||Hard|
 ✔|[830.Positions of Large Groups](https://leetcode-cn.com/problems/positions-of-large-groups)|[C++](0801-0900/0830.positions-of-large-groups.cpp)|Easy|
 -|[831.Masking Personal Information](https://leetcode-cn.com/problems/masking-personal-information)||Medium|
--|[832.Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image)||Easy|
+✔|[832.Flipping an Image](https://leetcode-cn.com/problems/flipping-an-image)|[Rust](0801-0900/0832-flipping-an-image.rs)|Easy|
 -|[833.Find And Replace in String](https://leetcode-cn.com/problems/find-and-replace-in-string)||Medium|
 -|[834.Sum of Distances in Tree](https://leetcode-cn.com/problems/sum-of-distances-in-tree)||Hard|
 -|[835.Image Overlap](https://leetcode-cn.com/problems/image-overlap)||Medium|
@@ -1111,7 +1111,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1105.Filling Bookcase Shelves](https://leetcode-cn.com/problems/filling-bookcase-shelves)||Medium|
 -|[1106.Parsing A Boolean Expression](https://leetcode-cn.com/problems/parsing-a-boolean-expression)||Hard|
 -|[1107.New Users Daily Count](https://leetcode-cn.com/problems/new-users-daily-count)||Medium|
--|[1108.Defanging an IP Address](https://leetcode-cn.com/problems/defanging-an-ip-address)||Easy|
+✔|[1108.Defanging an IP Address](https://leetcode-cn.com/problems/defanging-an-ip-address)|[Rust](1101-1200/1108-defanging-an-ip-address.rs)|Easy|
 -|[1109.Corporate Flight Bookings](https://leetcode-cn.com/problems/corporate-flight-bookings)||Medium|
 -|[1110.Delete Nodes And Return Forest](https://leetcode-cn.com/problems/delete-nodes-and-return-forest)||Medium|
 ✔|[1111.Maximum Nesting Depth of Two Valid Parentheses Strings](https://leetcode-cn.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings)|[C++](1101-1200/1111.maximum-nesting-depth-of-two-valid-parentheses-strings.cpp)|Medium|
@@ -1269,7 +1269,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1263.Minimum Moves to Move a Box to Their Target Location](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location)||Hard|
 -|[1264.Page Recommendations](https://leetcode-cn.com/problems/page-recommendations)||Medium|
 -|[1265.Print Immutable Linked List in Reverse](https://leetcode-cn.com/problems/print-immutable-linked-list-in-reverse)||Medium|
--|[1266.Minimum Time Visiting All Points](https://leetcode-cn.com/problems/minimum-time-visiting-all-points)||Easy|
+✔|[1266.Minimum Time Visiting All Points](https://leetcode-cn.com/problems/minimum-time-visiting-all-points)|[Rust](1201-1300/1266-minimum-time-visiting-all-points.rs)|Easy|
 -|[1267.Count Servers that Communicate](https://leetcode-cn.com/problems/count-servers-that-communicate)||Medium|
 -|[1268.Search Suggestions System](https://leetcode-cn.com/problems/search-suggestions-system)||Medium|
 -|[1269.Number of Ways to Stay in the Same Place After Some Steps](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps)||Hard|
@@ -1284,7 +1284,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1278.Palindrome Partitioning III](https://leetcode-cn.com/problems/palindrome-partitioning-iii)||Hard|
 -|[1279.Traffic Light Controlled Intersection](https://leetcode-cn.com/problems/traffic-light-controlled-intersection)||Easy|
 -|[1280.Students and Examinations](https://leetcode-cn.com/problems/students-and-examinations)||Easy|
--|[1281.Subtract the Product and Sum of Digits of an Integer](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer)||Easy|
+✔|[1281.Subtract the Product and Sum of Digits of an Integer](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer)|[Rust](1201-1300/1281-ubtract-the-product-and-sum-of-digits-of-an-integer.rs)|Easy|
 -|[1282.Group the People Given the Group Size They Belong To](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to)||Medium|
 -|[1283.Find the Smallest Divisor Given a Threshold](https://leetcode-cn.com/problems/find-the-smallest-divisor-given-a-threshold)||Medium|
 -|[1284.Minimum Number of Flips to Convert Binary Matrix to Zero Matrix](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix)||Hard|
@@ -1298,7 +1298,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1292.Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold)||Medium|
 -|[1293.Shortest Path in a Grid with Obstacles Elimination](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)||Hard|
 -|[1294.Weather Type in Each Country](https://leetcode-cn.com/problems/weather-type-in-each-country)||Easy|
--|[1295.Find Numbers with Even Number of Digits](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits)||Easy|
+✔|[1295.Find Numbers with Even Number of Digits](https://leetcode-cn.com/problems/find-numbers-with-even-number-of-digits)|[Rust](1201-1300/1295-find-numbers-with-even-number-of-digits.rs)|Easy|
 -|[1296.Divide Array in Sets of K Consecutive Numbers](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers)||Medium|
 -|[1297.Maximum Number of Occurrences of a Substring](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring)||Medium|
 -|[1298.Maximum Candies You Can Get from Boxes](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes)||Hard|
@@ -1345,7 +1345,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1339.Maximum Product of Splitted Binary Tree](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree)||Medium|
 -|[1340.Jump Game V](https://leetcode-cn.com/problems/jump-game-v)||Hard|
 -|[1341.Movie Rating](https://leetcode-cn.com/problems/movie-rating)||Medium|
--|[1342.Number of Steps to Reduce a Number to Zero](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero)||Easy|
+✔|[1342.Number of Steps to Reduce a Number to Zero](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-to-zero)|[Rust](1301-1400/1342-number-of-steps-to-reduce-a-number-to-zero.rs)|Easy|
 -|[1343.Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode-cn.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold)||Medium|
 -|[1344.Angle Between Hands of a Clock](https://leetcode-cn.com/problems/angle-between-hands-of-a-clock)||Medium|
 -|[1345.Jump Game IV](https://leetcode-cn.com/problems/jump-game-iv)||Hard|
@@ -1392,7 +1392,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1386.Cinema Seat Allocation](https://leetcode-cn.com/problems/cinema-seat-allocation)||Medium|
 -|[1387.Sort Integers by The Power Value](https://leetcode-cn.com/problems/sort-integers-by-the-power-value)||Medium|
 -|[1388.Pizza With 3n Slices](https://leetcode-cn.com/problems/pizza-with-3n-slices)||Hard|
--|[1389.Create Target Array in the Given Order](https://leetcode-cn.com/problems/create-target-array-in-the-given-order)||Easy|
+✔|[1389.Create Target Array in the Given Order](https://leetcode-cn.com/problems/create-target-array-in-the-given-order)|[Rust](1301-1400/1389-create-target-array-in-the-given-order.rs)|Easy|
 -|[1390.Four Divisors](https://leetcode-cn.com/problems/four-divisors)||Medium|
 -|[1391.Check if There is a Valid Path in a Grid](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid)||Medium|
 -|[1392.Longest Happy Prefix](https://leetcode-cn.com/problems/longest-happy-prefix)||Hard|
@@ -1441,7 +1441,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1435.Create a Session Bar Chart](https://leetcode-cn.com/problems/create-a-session-bar-chart)||Easy|
 -|[1436.Destination City](https://leetcode-cn.com/problems/destination-city)||Easy|
 -|[1437.Check If All 1's Are at Least Length K Places Away](https://leetcode-cn.com/problems/check-if-all-1's-are-at-least-length-k-places-away)||Medium|
--|[1438.Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)||Medium|
+✔|[1438.Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[Rust](1401-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.rs)|Medium|
 -|[1439.Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)||Hard|
 -|[1440.Evaluate Boolean Expression](https://leetcode-cn.com/problems/evaluate-boolean-expression)||Medium|
 -|[1441.Build an Array With Stack Operations](https://leetcode-cn.com/problems/build-an-array-with-stack-operations)||Easy|

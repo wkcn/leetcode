@@ -106,7 +106,7 @@ def get_finished_problems():
 
 FINISHED_PROBLEMS = get_finished_problems()
 
-tqdm.format_interval = lambda days: f'{days} days'
+tqdm.format_interval = lambda days: f'{int(round(days))} days'
 
 def write_all_problems():
     n = len(FINISHED_PROBLEMS)
