@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 31%|████████████████▎                                    | 448/1456 [771 days<1735 days,  1.72s/it]
+ 31%|████████████████▌                                    | 455/1456 [774 days<1703 days,  1.70s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -400,7 +400,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[392.Is Subsequence](https://leetcode-cn.com/problems/is-subsequence)||Easy|
 -|[393.UTF-8 Validation](https://leetcode-cn.com/problems/utf-8-validation)||Medium|
 ✔|[394.Decode String](https://leetcode-cn.com/problems/decode-string)|[C++](0301-0400/0394.decode-string.cpp)|Medium|
--|[395.Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters)||Medium|
+✔|[395.Longest Substring with At Least K Repeating Characters](https://leetcode-cn.com/problems/longest-substring-with-at-least-k-repeating-characters)|[Rust](0301-0400/0395-longest-substring-with-at-least-k-repeating-characters.rs)|Medium|
 ✔|[396.Rotate Function](https://leetcode-cn.com/problems/rotate-function)|[C++](0301-0400/0396.rotate-function.cpp)|Medium|
 -|[397.Integer Replacement](https://leetcode-cn.com/problems/integer-replacement)||Medium|
 -|[398.Random Pick Index](https://leetcode-cn.com/problems/random-pick-index)||Medium|
@@ -872,7 +872,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[864.Shortest Path to Get All Keys](https://leetcode-cn.com/problems/shortest-path-to-get-all-keys)||Hard|
 -|[865.Smallest Subtree with all the Deepest Nodes](https://leetcode-cn.com/problems/smallest-subtree-with-all-the-deepest-nodes)||Medium|
 -|[866.Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome)||Medium|
--|[867.Transpose Matrix](https://leetcode-cn.com/problems/transpose-matrix)||Easy|
+✔|[867.Transpose Matrix](https://leetcode-cn.com/problems/transpose-matrix)|[Python](0801-0900/0867-transpose-matrix.py)|Easy|
 ✔|[868.Binary Gap](https://leetcode-cn.com/problems/binary-gap)|[Rust](0801-0900/0868-binary-gap.rs)|Easy|
 -|[869.Reordered Power of 2](https://leetcode-cn.com/problems/reordered-power-of-2)||Medium|
 -|[870.Advantage Shuffle](https://leetcode-cn.com/problems/advantage-shuffle)||Medium|
@@ -882,7 +882,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[874.Walking Robot Simulation](https://leetcode-cn.com/problems/walking-robot-simulation)|[C++](0801-0900/0874.Walking-Robot-Simulation.cpp), [Rust](0801-0900/0874-walking-robot-simulation.rs)|Easy|
 -|[875.Koko Eating Bananas](https://leetcode-cn.com/problems/koko-eating-bananas)||Medium|
 ✔|[876.Middle of the Linked List](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[C++](0801-0900/0876.middle-of-the-linked-list.cpp)|Easy|
--|[877.Stone Game](https://leetcode-cn.com/problems/stone-game)||Medium|
+✔|[877.Stone Game](https://leetcode-cn.com/problems/stone-game)|[Rust](0801-0900/0877-stone-game.rs)|Medium|
 -|[878.Nth Magical Number](https://leetcode-cn.com/problems/nth-magical-number)||Hard|
 -|[879.Profitable Schemes](https://leetcode-cn.com/problems/profitable-schemes)||Hard|
 -|[880.Decoded String at Index](https://leetcode-cn.com/problems/decoded-string-at-index)||Medium|
@@ -1181,7 +1181,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1175.Prime Arrangements](https://leetcode-cn.com/problems/prime-arrangements)||Easy|
 -|[1176.Diet Plan Performance](https://leetcode-cn.com/problems/diet-plan-performance)||Easy|
 -|[1177.Can Make Palindrome from Substring](https://leetcode-cn.com/problems/can-make-palindrome-from-substring)||Medium|
--|[1178.Number of Valid Words for Each Puzzle](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle)||Hard|
+✔|[1178.Number of Valid Words for Each Puzzle](https://leetcode-cn.com/problems/number-of-valid-words-for-each-puzzle)|[Rust](1101-1200/1178-number-of-valid-words-for-each-puzzle.rs)|Hard|
 -|[1179.Reformat Department Table](https://leetcode-cn.com/problems/reformat-department-table)||Easy|
 -|[1180.Count Substrings with Only One Distinct Letter](https://leetcode-cn.com/problems/count-substrings-with-only-one-distinct-letter)||Easy|
 -|[1181.Before and After Puzzle](https://leetcode-cn.com/problems/before-and-after-puzzle)||Medium|
@@ -1224,7 +1224,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1218.Longest Arithmetic Subsequence of Given Difference](https://leetcode-cn.com/problems/longest-arithmetic-subsequence-of-given-difference)||Medium|
 -|[1219.Path with Maximum Gold](https://leetcode-cn.com/problems/path-with-maximum-gold)||Medium|
 -|[1220.Count Vowels Permutation](https://leetcode-cn.com/problems/count-vowels-permutation)||Hard|
--|[1221.Split a String in Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings)||Easy|
+✔|[1221.Split a String in Balanced Strings](https://leetcode-cn.com/problems/split-a-string-in-balanced-strings)|[Rust](1201-1300/1221-split-a-string-in-balanced-strings.rs)|Easy|
 -|[1222.Queens That Can Attack the King](https://leetcode-cn.com/problems/queens-that-can-attack-the-king)||Medium|
 -|[1223.Dice Roll Simulation](https://leetcode-cn.com/problems/dice-roll-simulation)||Medium|
 -|[1224.Maximum Equal Frequency](https://leetcode-cn.com/problems/maximum-equal-frequency)||Hard|
