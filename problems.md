@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 31%|████████████████▌                                    | 455/1456 [774 days<1703 days,  1.70s/it]
+ 32%|████████████████▋                                    | 459/1456 [782 days<1699 days,  1.70s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -136,7 +136,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[128.Longest Consecutive Sequence](https://leetcode-cn.com/problems/longest-consecutive-sequence)||Hard|
 ✔|[129.Sum Root to Leaf Numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers)|[C++](0101-0200/0129.sum-root-to-leaf-numbers.cpp)|Medium|
 ✔|[130.Surrounded Regions](https://leetcode-cn.com/problems/surrounded-regions)|[C++](0101-0200/0130.surrounded-regions.cpp)|Medium|
--|[131.Palindrome Partitioning](https://leetcode-cn.com/problems/palindrome-partitioning)||Medium|
+✔|[131.Palindrome Partitioning](https://leetcode-cn.com/problems/palindrome-partitioning)|[Rust](0101-0200/0131-palindrome-partitioning.rs)|Medium|
 -|[132.Palindrome Partitioning II](https://leetcode-cn.com/problems/palindrome-partitioning-ii)||Hard|
 ✔|[133.Clone Graph](https://leetcode-cn.com/problems/clone-graph)|[C++](0101-0200/0133.Clone-Graph.cpp), [C++](0101-0200/0133.clone-graph.cpp)|Medium|
 ✔|[134.Gas Station](https://leetcode-cn.com/problems/gas-station)|[C++](0101-0200/0134.gas-station.cpp)|Medium|
@@ -308,7 +308,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[300.Longest Increasing Subsequence](https://leetcode-cn.com/problems/longest-increasing-subsequence)|[C++](0201-0300/0300.longest-increasing-subsequence.cpp)|Medium|
 -|[301.Remove Invalid Parentheses](https://leetcode-cn.com/problems/remove-invalid-parentheses)||Hard|
 -|[302.Smallest Rectangle Enclosing Black Pixels](https://leetcode-cn.com/problems/smallest-rectangle-enclosing-black-pixels)||Hard|
-✔|[303.Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query---immutable)|[C++](0301-0400/0303.Range-Sum-Query-Immutable.cpp), [C++](0301-0400/0303.range-sum-query-immutable.cpp)|Easy|
+✔|[303.Range Sum Query - Immutable](https://leetcode-cn.com/problems/range-sum-query---immutable)|[C++](0301-0400/0303.Range-Sum-Query-Immutable.cpp), [C++](0301-0400/0303.range-sum-query-immutable.cpp), [Rust](0301-0400/0303-range-sum-query-immutable.rs)|Easy|
 ✔|[304.Range Sum Query 2D - Immutable](https://leetcode-cn.com/problems/range-sum-query-2d---immutable)|[C++](0301-0400/0304.range-sum-query-2d-immutable.cpp)|Medium|
 -|[305.Number of Islands II](https://leetcode-cn.com/problems/number-of-islands-ii)||Hard|
 ✔|[306.Additive Number](https://leetcode-cn.com/problems/additive-number)|[C++](0301-0400/0306.additive-number.cpp)|Medium|
@@ -343,7 +343,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[335.Self Crossing](https://leetcode-cn.com/problems/self-crossing)||Hard|
 ✔|[336.Palindrome Pairs](https://leetcode-cn.com/problems/palindrome-pairs)|[C++](0301-0400/0336.palindrome-pairs.cpp)|Hard|
 -|[337.House Robber III](https://leetcode-cn.com/problems/house-robber-iii)||Medium|
-✔|[338.Counting Bits](https://leetcode-cn.com/problems/counting-bits)|[C++](0301-0400/0338.Counting-Bits.cpp)|Medium|
+✔|[338.Counting Bits](https://leetcode-cn.com/problems/counting-bits)|[C++](0301-0400/0338-counting-bits.cpp), [C++](0301-0400/0338.Counting-Bits.cpp)|Medium|
 -|[339.Nested List Weight Sum](https://leetcode-cn.com/problems/nested-list-weight-sum)||Easy|
 -|[340.Longest Substring with At Most K Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters)||Hard|
 -|[341.Flatten Nested List Iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator)||Medium|
@@ -359,7 +359,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[351.Android Unlock Patterns](https://leetcode-cn.com/problems/android-unlock-patterns)||Medium|
 -|[352.Data Stream as Disjoint Intervals](https://leetcode-cn.com/problems/data-stream-as-disjoint-intervals)||Hard|
 -|[353.Design Snake Game](https://leetcode-cn.com/problems/design-snake-game)||Medium|
--|[354.Russian Doll Envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes)||Hard|
+✔|[354.Russian Doll Envelopes](https://leetcode-cn.com/problems/russian-doll-envelopes)|[C++](0301-0400/0354-russian-doll-envelopes.cpp)|Hard|
 ✔|[355.Design Twitter](https://leetcode-cn.com/problems/design-twitter)|[C++](0301-0400/0355.design-twitter.cpp)|Medium|
 -|[356.Line Reflection](https://leetcode-cn.com/problems/line-reflection)||Medium|
 -|[357.Count Numbers with Unique Digits](https://leetcode-cn.com/problems/count-numbers-with-unique-digits)||Medium|
@@ -508,7 +508,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[500.Keyboard Row](https://leetcode-cn.com/problems/keyboard-row)|[Rust](0401-0500/0500-keyboard-row.rs)|Easy|
 ✔|[501.Find Mode in Binary Search Tree](https://leetcode-cn.com/problems/find-mode-in-binary-search-tree)|[C++](0501-0600/0501.find-mode-in-binary-search-tree.cpp)|Easy|
 -|[502.IPO](https://leetcode-cn.com/problems/ipo)||Hard|
--|[503.Next Greater Element II](https://leetcode-cn.com/problems/next-greater-element-ii)||Medium|
+✔|[503.Next Greater Element II](https://leetcode-cn.com/problems/next-greater-element-ii)|[Rust](0501-0600/0503-next-greater-element-ii.rs)|Medium|
 ✔|[504.Base 7](https://leetcode-cn.com/problems/base-7)|[Rust](0501-0600/0504-base-7.rs)|Easy|
 -|[505.The Maze II](https://leetcode-cn.com/problems/the-maze-ii)||Medium|
 ✔|[506.Relative Ranks](https://leetcode-cn.com/problems/relative-ranks)|[C++](0501-0600/0506.relative-ranks.cpp)|Easy|
@@ -901,7 +901,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[893.Groups of Special-Equivalent Strings](https://leetcode-cn.com/problems/groups-of-special-equivalent-strings)||Easy|
 -|[894.All Possible Full Binary Trees](https://leetcode-cn.com/problems/all-possible-full-binary-trees)||Medium|
 -|[895.Maximum Frequency Stack](https://leetcode-cn.com/problems/maximum-frequency-stack)||Hard|
--|[896.Monotonic Array](https://leetcode-cn.com/problems/monotonic-array)||Easy|
+✔|[896.Monotonic Array](https://leetcode-cn.com/problems/monotonic-array)|[Rust](0801-0900/0896-monotonic-array.rs)|Easy|
 -|[897.Increasing Order Search Tree](https://leetcode-cn.com/problems/increasing-order-search-tree)||Easy|
 -|[898.Bitwise ORs of Subarrays](https://leetcode-cn.com/problems/bitwise-ors-of-subarrays)||Medium|
 -|[899.Orderly Queue](https://leetcode-cn.com/problems/orderly-queue)||Hard|
