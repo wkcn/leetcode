@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 32%|████████████████▋                                    | 459/1456 [782 days<1699 days,  1.70s/it]
+ 32%|████████████████▉                                    | 465/1456 [789 days<1682 days,  1.70s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -137,7 +137,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[129.Sum Root to Leaf Numbers](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers)|[C++](0101-0200/0129.sum-root-to-leaf-numbers.cpp)|Medium|
 ✔|[130.Surrounded Regions](https://leetcode-cn.com/problems/surrounded-regions)|[C++](0101-0200/0130.surrounded-regions.cpp)|Medium|
 ✔|[131.Palindrome Partitioning](https://leetcode-cn.com/problems/palindrome-partitioning)|[Rust](0101-0200/0131-palindrome-partitioning.rs)|Medium|
--|[132.Palindrome Partitioning II](https://leetcode-cn.com/problems/palindrome-partitioning-ii)||Hard|
+✔|[132.Palindrome Partitioning II](https://leetcode-cn.com/problems/palindrome-partitioning-ii)|[Rust](0101-0200/0132-palindrome-partitioning-ii.rs)|Hard|
 ✔|[133.Clone Graph](https://leetcode-cn.com/problems/clone-graph)|[C++](0101-0200/0133.Clone-Graph.cpp), [C++](0101-0200/0133.clone-graph.cpp)|Medium|
 ✔|[134.Gas Station](https://leetcode-cn.com/problems/gas-station)|[C++](0101-0200/0134.gas-station.cpp)|Medium|
 -|[135.Candy](https://leetcode-cn.com/problems/candy)||Hard|
@@ -229,7 +229,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[221.Maximal Square](https://leetcode-cn.com/problems/maximal-square)|[C++](0201-0300/0221.maximal-square.cpp)|Medium|
 ✔|[222.Count Complete Tree Nodes](https://leetcode-cn.com/problems/count-complete-tree-nodes)|[C++](0201-0300/0222.count-complete-tree-nodes.cpp)|Medium|
 -|[223.Rectangle Area](https://leetcode-cn.com/problems/rectangle-area)||Medium|
--|[224.Basic Calculator](https://leetcode-cn.com/problems/basic-calculator)||Hard|
+✔|[224.Basic Calculator](https://leetcode-cn.com/problems/basic-calculator)|[Rust](0201-0300/0224-basic-calculator.rs)|Hard|
 -|[225.Implement Stack using Queues](https://leetcode-cn.com/problems/implement-stack-using-queues)||Easy|
 ✔|[226.Invert Binary Tree](https://leetcode-cn.com/problems/invert-binary-tree)|[C++](0201-0300/0226.invert-binary-tree.cpp)|Easy|
 -|[227.Basic Calculator II](https://leetcode-cn.com/problems/basic-calculator-ii)||Medium|
@@ -336,7 +336,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[328.Odd Even Linked List](https://leetcode-cn.com/problems/odd-even-linked-list)||Medium|
 ✔|[329.Longest Increasing Path in a Matrix](https://leetcode-cn.com/problems/longest-increasing-path-in-a-matrix)|[C++](0301-0400/0329.longest-increasing-path-in-a-matrix.cpp)|Hard|
 ✔|[330.Patching Array](https://leetcode-cn.com/problems/patching-array)|[C++](0301-0400/0330.patching-array.cpp)|Hard|
--|[331.Verify Preorder Serialization of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree)||Medium|
+✔|[331.Verify Preorder Serialization of a Binary Tree](https://leetcode-cn.com/problems/verify-preorder-serialization-of-a-binary-tree)|[Rust](0301-0400/0331-verify-preorder-serialization-of-a-binary-tree.rs)|Medium|
 ✔|[332.Reconstruct Itinerary](https://leetcode-cn.com/problems/reconstruct-itinerary)|[C++](0301-0400/0332.reconstruct-itinerary.cpp)|Medium|
 -|[333.Largest BST Subtree](https://leetcode-cn.com/problems/largest-bst-subtree)||Medium|
 -|[334.Increasing Triplet Subsequence](https://leetcode-cn.com/problems/increasing-triplet-subsequence)||Medium|
@@ -710,8 +710,8 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[702.Search in a Sorted Array of Unknown Size](https://leetcode-cn.com/problems/search-in-a-sorted-array-of-unknown-size)||Medium|
 ✔|[703.Kth Largest Element in a Stream](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream)|[Rust](0701-0800/0703-kth-largest-element-in-a-stream.rs)|Easy|
 ✔|[704.Binary Search](https://leetcode-cn.com/problems/binary-search)|[Rust](0701-0800/0704-binary-search.rs)|Easy|
--|[705.Design HashSet](https://leetcode-cn.com/problems/design-hashset)||Easy|
--|[706.Design HashMap](https://leetcode-cn.com/problems/design-hashmap)||Easy|
+✔|[705.Design HashSet](https://leetcode-cn.com/problems/design-hashset)|[Rust](0701-0800/0705-design-hashset.rs)|Easy|
+✔|[706.Design HashMap](https://leetcode-cn.com/problems/design-hashmap)|[Rust](0701-0800/0706-design-hashmap.rs)|Easy|
 -|[707.Design Linked List](https://leetcode-cn.com/problems/design-linked-list)||Medium|
 -|[708.Insert into a Sorted Circular Linked List](https://leetcode-cn.com/problems/insert-into-a-sorted-circular-linked-list)||Medium|
 ✔|[709.To Lower Case](https://leetcode-cn.com/problems/to-lower-case)|[C++](0701-0800/0709.To-Lower-Case.cpp)|Easy|
@@ -1052,7 +1052,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1044.Longest Duplicate Substring](https://leetcode-cn.com/problems/longest-duplicate-substring)||Hard|
 -|[1045.Customers Who Bought All Products](https://leetcode-cn.com/problems/customers-who-bought-all-products)||Medium|
 ✔|[1046.Last Stone Weight](https://leetcode-cn.com/problems/last-stone-weight)|[C++](1001-1100/1046.last-stone-weight.cpp)|Easy|
--|[1047.Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string)||Easy|
+✔|[1047.Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string)|[Rust](1001-1100/1047-remove-all-adjacent-duplicates-in-string.rs)|Easy|
 -|[1048.Longest String Chain](https://leetcode-cn.com/problems/longest-string-chain)||Medium|
 -|[1049.Last Stone Weight II](https://leetcode-cn.com/problems/last-stone-weight-ii)||Medium|
 -|[1050.Actors and Directors Who Cooperated At Least Three Times](https://leetcode-cn.com/problems/actors-and-directors-who-cooperated-at-least-three-times)||Easy|
