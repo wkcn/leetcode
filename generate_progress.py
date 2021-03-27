@@ -5,6 +5,7 @@ from tqdm import tqdm
 EXTS = dict([
     ('.cpp', 'C++'),
     ('.py', 'Python'),
+    ('.go', 'Go'),
     ('.rs', 'Rust'),
     ('.scala', 'Scala'),
     ('.sh', 'Shell'),

@@ -2,7 +2,7 @@ import os
 
 for fname in os.listdir('.'):
     name, ext = os.path.splitext(fname)
-    if ext in ['.cpp', '.py', '.rs', '.scala', '.sh']:
+    if ext in ['.cpp', '.py', '.rs', '.scala', '.sh', '.go']:
         for c in ['.', '-']:
             if c in name:
                 fi = name.find(c)
