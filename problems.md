@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 33%|█████████████████▎                                   | 477/1456 [803 days<1648 days,  1.68s/it]
+ 33%|█████████████████▍                                   | 480/1456 [804 days<1635 days,  1.68s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -195,7 +195,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[187.Repeated DNA Sequences](https://leetcode-cn.com/problems/repeated-dna-sequences)||Medium|
 ✔|[188.Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](0101-0200/0188.best-time-to-buy-and-sell-stock-iv.cpp)|Hard|
 ✔|[189.Rotate Array](https://leetcode-cn.com/problems/rotate-array)|[C++](0101-0200/0189.rotate-array.cpp)|Easy|
--|[190.Reverse Bits](https://leetcode-cn.com/problems/reverse-bits)||Easy|
+✔|[190.Reverse Bits](https://leetcode-cn.com/problems/reverse-bits)|[C++](0101-0200/0190-reverse-bits.cpp)|Easy|
 ✔|[191.Number of 1 Bits](https://leetcode-cn.com/problems/number-of-1-bits)|[C++](0101-0200/0191.Number-of-1-Bits.cpp), [C++](0101-0200/0191.number-of-1-bits.cpp), [Rust](0101-0200/0191-number-of-1-bits.rs)|Easy|
 -|[192.Word Frequency](https://leetcode-cn.com/problems/word-frequency)||Medium|
 -|[193.Valid Phone Numbers](https://leetcode-cn.com/problems/valid-phone-numbers)||Easy|

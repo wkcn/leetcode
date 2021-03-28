@@ -53,3 +53,62 @@ private:
  * int param_1 = obj->next();
  * bool param_2 = obj->hasNext();
  */
+
+class BSTIterator {
+public:
+    BSTIterator(TreeNode* root) {
+        cur = root;
+    }
+
+    int next() {
+        // cur != nullptr
+        while (cur->left) {
+            TreeNode *p = cur->left;
+            while (p->right && p->right != cur) p = p->right;
+            if (p->right) {
+                p->right = nullptr;
+                break;
+            } else {
+                p->right = cur;
+                cur = cur->left;
+            }
+        }
+        int v = cur->val;
+        cur = cur->right;
+        return v;
+    }
+
+    bool hasNext() {
+        return cur != nullptr;
+    }
+private:
+    TreeNode *cur;
+};
+
+
+class BSTIterator {
+public:
+    BSTIterator(TreeNode* root) {
+        PushLeft(root);
+    }
+
+    int next() {
+        TreeNode *r = st.top();
+        st.pop();
+        PushLeft(r->right);
+        return r->val;
+    }
+
+    bool hasNext() {
+        return !st.empty();
+    }
+private:
+    stack<TreeNode*> st;
+    void PushLeft(TreeNode *root) {
+        while (root) {
+            st.push(root);
+            root = root->left;
+        }
+    }
+};
+
