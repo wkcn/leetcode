@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 33%|█████████████████▍                                   | 480/1456 [804 days<1635 days,  1.68s/it]
+ 33%|█████████████████▋                                   | 487/1456 [806 days<1604 days,  1.66s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -35,7 +35,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[27.Remove Element](https://leetcode-cn.com/problems/remove-element)|[C++](0001-0100/0027.Remove-Element.cpp), [C++](0001-0100/0027.remove-element.cpp)|Easy|
 ✔|[28.Implement strStr()](https://leetcode-cn.com/problems/implement-strstr)|[C++](0001-0100/0028.ImplementStr.cpp)|Easy|
 ✔|[29.Divide Two Integers](https://leetcode-cn.com/problems/divide-two-integers)|[C++](0001-0100/0029.Divide-Two-Integers.cpp), [C++](0001-0100/0029.divide-two-integers.cpp)|Medium|
--|[30.Substring with Concatenation of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)||Hard|
+✔|[30.Substring with Concatenation of All Words](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words)|[C++](0001-0100/0030-substring-with-concatenation-of-all-words.cpp)|Hard|
 ✔|[31.Next Permutation](https://leetcode-cn.com/problems/next-permutation)|[C++](0001-0100/0031.Next-Permutation.cpp), [C++](0001-0100/0031.next-permutation.cpp)|Medium|
 ✔|[32.Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses)|[C++](0001-0100/0032.longest-valid-parentheses.cpp)|Hard|
 ✔|[33.Search in Rotated Sorted Array](https://leetcode-cn.com/problems/search-in-rotated-sorted-array)|[C++](0001-0100/0033.search-in-rotated-sorted-array.cpp)|Medium|
@@ -79,7 +79,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[71.Simplify Path](https://leetcode-cn.com/problems/simplify-path)||Medium|
 ✔|[72.Edit Distance](https://leetcode-cn.com/problems/edit-distance)|[C++](0001-0100/0072.edit-distance.cpp)|Hard|
 ✔|[73.Set Matrix Zeroes](https://leetcode-cn.com/problems/set-matrix-zeroes)|[C++](0001-0100/0073.set-matrix-zeroes.cpp), [Rust](0001-0100/0073-set-matrix-zeroes.rs)|Medium|
-✔|[74.Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|[C++](0001-0100/0074.search-a-2d-matrix.cpp)|Medium|
+✔|[74.Search a 2D Matrix](https://leetcode-cn.com/problems/search-a-2d-matrix)|[C++](0001-0100/0074.search-a-2d-matrix.cpp), [Go](0001-0100/0074-search-a-2d-matrix.go)|Medium|
 ✔|[75.Sort Colors](https://leetcode-cn.com/problems/sort-colors)|[C++](0001-0100/0075.sort-colors.cpp)|Medium|
 ✔|[76.Minimum Window Substring](https://leetcode-cn.com/problems/minimum-window-substring)|[C++](0001-0100/0076.minimum-window-substring.cpp)|Hard|
 -|[77.Combinations](https://leetcode-cn.com/problems/combinations)||Medium|
@@ -95,7 +95,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[87.Scramble String](https://leetcode-cn.com/problems/scramble-string)||Hard|
 ✔|[88.Merge Sorted Array](https://leetcode-cn.com/problems/merge-sorted-array)|[C++](0001-0100/0088.Merge-Sorted-Array.cpp), [C++](0001-0100/0088.merge-sorted-array.cpp), [Rust](0001-0100/0088-Merge.rs)|Easy|
 -|[89.Gray Code](https://leetcode-cn.com/problems/gray-code)||Medium|
-✔|[90.Subsets II](https://leetcode-cn.com/problems/subsets-ii)|[Rust](0001-0100/0090-subsets.rs)|Medium|
+✔|[90.Subsets II](https://leetcode-cn.com/problems/subsets-ii)|[Go](0001-0100/0090-subsets-ii.go), [Rust](0001-0100/0090-subsets.rs)|Medium|
 ✔|[91.Decode Ways](https://leetcode-cn.com/problems/decode-ways)|[C++](0001-0100/0091.DecodeWays.cpp), [C++](0001-0100/0091.decode-ways.cpp)|Medium|
 ✔|[92.Reverse Linked List II](https://leetcode-cn.com/problems/reverse-linked-list-ii)|[C++](0001-0100/0092.reverse-linked-list-ii.cpp)|Medium|
 -|[93.Restore IP Addresses](https://leetcode-cn.com/problems/restore-ip-addresses)||Medium|
@@ -811,7 +811,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[803.Bricks Falling When Hit](https://leetcode-cn.com/problems/bricks-falling-when-hit)|[C++](0801-0900/0803.bricks-falling-when-hit.cpp)|Hard|
 ✔|[804.Unique Morse Code Words](https://leetcode-cn.com/problems/unique-morse-code-words)|[Python](0801-0900/0804.unique-morse-code-words.py)|Easy|
 -|[805.Split Array With Same Average](https://leetcode-cn.com/problems/split-array-with-same-average)||Hard|
--|[806.Number of Lines To Write String](https://leetcode-cn.com/problems/number-of-lines-to-write-string)||Easy|
+✔|[806.Number of Lines To Write String](https://leetcode-cn.com/problems/number-of-lines-to-write-string)|[Go](0801-0900/0806-number-of-lines-to-write-string.go)|Easy|
 -|[807.Max Increase to Keep City Skyline](https://leetcode-cn.com/problems/max-increase-to-keep-city-skyline)||Medium|
 -|[808.Soup Servings](https://leetcode-cn.com/problems/soup-servings)||Medium|
 -|[809.Expressive Words](https://leetcode-cn.com/problems/expressive-words)||Medium|
@@ -1305,7 +1305,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1299.Replace Elements with Greatest Element on Right Side](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side)||Easy|
 ✔|[1300.Sum of Mutated Array Closest to Target](https://leetcode-cn.com/problems/sum-of-mutated-array-closest-to-target)|[C++](1201-1300/1300.sum-of-mutated-array-closest-to-target.cpp)|Medium|
 -|[1301.Number of Paths with Max Score](https://leetcode-cn.com/problems/number-of-paths-with-max-score)||Hard|
--|[1302.Deepest Leaves Sum](https://leetcode-cn.com/problems/deepest-leaves-sum)||Medium|
+✔|[1302.Deepest Leaves Sum](https://leetcode-cn.com/problems/deepest-leaves-sum)|[Go](1301-1400/1302-deepest-leaves-sum.go)|Medium|
 -|[1303.Find the Team Size](https://leetcode-cn.com/problems/find-the-team-size)||Easy|
 -|[1304.Find N Unique Integers Sum up to Zero](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero)||Easy|
 -|[1305.All Elements in Two Binary Search Trees](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees)||Medium|
@@ -1340,7 +1340,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)||Medium|
 -|[1335.Minimum Difficulty of a Job Schedule](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule)||Hard|
 -|[1336.Number of Transactions per Visit](https://leetcode-cn.com/problems/number-of-transactions-per-visit)||Hard|
--|[1337.The K Weakest Rows in a Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix)||Easy|
+✔|[1337.The K Weakest Rows in a Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix)|[Go](1301-1400/1337-the-k-weakest-rows-in-a-matrix.go)|Easy|
 -|[1338.Reduce Array Size to The Half](https://leetcode-cn.com/problems/reduce-array-size-to-the-half)||Medium|
 -|[1339.Maximum Product of Splitted Binary Tree](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree)||Medium|
 -|[1340.Jump Game V](https://leetcode-cn.com/problems/jump-game-v)||Hard|
@@ -1354,7 +1354,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1348.Tweet Counts Per Frequency](https://leetcode-cn.com/problems/tweet-counts-per-frequency)||Medium|
 -|[1349.Maximum Students Taking Exam](https://leetcode-cn.com/problems/maximum-students-taking-exam)||Hard|
 -|[1350.Students With Invalid Departments](https://leetcode-cn.com/problems/students-with-invalid-departments)||Easy|
--|[1351.Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix)||Easy|
+✔|[1351.Count Negative Numbers in a Sorted Matrix](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix)|[Go](1301-1400/1351-count-negative-numbers-in-a-sorted-matrix.go)|Easy|
 -|[1352.Product of the Last K Numbers](https://leetcode-cn.com/problems/product-of-the-last-k-numbers)||Medium|
 -|[1353.Maximum Number of Events That Can Be Attended](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended)||Medium|
 -|[1354.Construct Target Array With Multiple Sums](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums)||Hard|
@@ -1444,7 +1444,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1438.Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[Rust](1401-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.rs)|Medium|
 -|[1439.Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)||Hard|
 -|[1440.Evaluate Boolean Expression](https://leetcode-cn.com/problems/evaluate-boolean-expression)||Medium|
--|[1441.Build an Array With Stack Operations](https://leetcode-cn.com/problems/build-an-array-with-stack-operations)||Easy|
+✔|[1441.Build an Array With Stack Operations](https://leetcode-cn.com/problems/build-an-array-with-stack-operations)|[Go](1401-1500/1441-build-an-array-with-stack-operations.go)|Easy|
 -|[1442.Count Triplets That Can Form Two Arrays of Equal XOR](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor)||Medium|
 -|[1443.Minimum Time to Collect All Apples in a Tree](https://leetcode-cn.com/problems/minimum-time-to-collect-all-apples-in-a-tree)||Medium|
 -|[1444.Number of Ways of Cutting a Pizza](https://leetcode-cn.com/problems/number-of-ways-of-cutting-a-pizza)||Hard|
