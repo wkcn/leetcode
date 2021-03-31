@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 33%|█████████████████▋                                   | 487/1456 [806 days<1604 days,  1.66s/it]
+ 34%|██████████████████                                   | 495/1456 [806 days<1565 days,  1.63s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -826,7 +826,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[818.Race Car](https://leetcode-cn.com/problems/race-car)||Hard|
 -|[819.Most Common Word](https://leetcode-cn.com/problems/most-common-word)||Easy|
 -|[820.Short Encoding of Words](https://leetcode-cn.com/problems/short-encoding-of-words)||Medium|
--|[821.Shortest Distance to a Character](https://leetcode-cn.com/problems/shortest-distance-to-a-character)||Easy|
+✔|[821.Shortest Distance to a Character](https://leetcode-cn.com/problems/shortest-distance-to-a-character)|[Go](0801-0900/0821-shortest-distance-to-a-character.go)|Easy|
 -|[822.Card Flipping Game](https://leetcode-cn.com/problems/card-flipping-game)||Medium|
 -|[823.Binary Trees With Factors](https://leetcode-cn.com/problems/binary-trees-with-factors)||Medium|
 -|[824.Goat Latin](https://leetcode-cn.com/problems/goat-latin)||Easy|
@@ -966,7 +966,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[958.Check Completeness of a Binary Tree](https://leetcode-cn.com/problems/check-completeness-of-a-binary-tree)||Medium|
 ✔|[959.Regions Cut By Slashes](https://leetcode-cn.com/problems/regions-cut-by-slashes)|[Rust](0901-1000/0959-regions-cut-by-slashes.rs)|Medium|
 -|[960.Delete Columns to Make Sorted III](https://leetcode-cn.com/problems/delete-columns-to-make-sorted-iii)||Hard|
--|[961.N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array)||Easy|
+✔|[961.N-Repeated Element in Size 2N Array](https://leetcode-cn.com/problems/n-repeated-element-in-size-2n-array)|[Python](0901-1000/0961-n-repeated-element-in-size-2n-array.py)|Easy|
 -|[962.Maximum Width Ramp](https://leetcode-cn.com/problems/maximum-width-ramp)||Medium|
 -|[963.Minimum Area Rectangle II](https://leetcode-cn.com/problems/minimum-area-rectangle-ii)||Medium|
 -|[964.Least Operators to Express Number](https://leetcode-cn.com/problems/least-operators-to-express-number)||Hard|
@@ -1307,7 +1307,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1301.Number of Paths with Max Score](https://leetcode-cn.com/problems/number-of-paths-with-max-score)||Hard|
 ✔|[1302.Deepest Leaves Sum](https://leetcode-cn.com/problems/deepest-leaves-sum)|[Go](1301-1400/1302-deepest-leaves-sum.go)|Medium|
 -|[1303.Find the Team Size](https://leetcode-cn.com/problems/find-the-team-size)||Easy|
--|[1304.Find N Unique Integers Sum up to Zero](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero)||Easy|
+✔|[1304.Find N Unique Integers Sum up to Zero](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero)|[Go](1301-1400/1304-find-n-unique-integers-sum-up-to-zero.go)|Easy|
 -|[1305.All Elements in Two Binary Search Trees](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees)||Medium|
 -|[1306.Jump Game III](https://leetcode-cn.com/problems/jump-game-iii)||Medium|
 -|[1307.Verbal Arithmetic Puzzle](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle)||Hard|
@@ -1335,7 +1335,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1329.Sort the Matrix Diagonally](https://leetcode-cn.com/problems/sort-the-matrix-diagonally)||Medium|
 -|[1330.Reverse Subarray To Maximize Array Value](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value)||Hard|
 -|[1331.Rank Transform of an Array](https://leetcode-cn.com/problems/rank-transform-of-an-array)||Easy|
--|[1332.Remove Palindromic Subsequences](https://leetcode-cn.com/problems/remove-palindromic-subsequences)||Easy|
+✔|[1332.Remove Palindromic Subsequences](https://leetcode-cn.com/problems/remove-palindromic-subsequences)|[Python](1301-1400/1332-remove-palindromic-subsequences.py)|Easy|
 -|[1333.Filter Restaurants by Vegan-Friendly, Price and Distance](https://leetcode-cn.com/problems/filter-restaurants-by-vegan-friendly-price-and-distance)||Medium|
 -|[1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)||Medium|
 -|[1335.Minimum Difficulty of a Job Schedule](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule)||Hard|
@@ -1377,7 +1377,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1371.Find the Longest Substring Containing Vowels in Even Counts](https://leetcode-cn.com/problems/find-the-longest-substring-containing-vowels-in-even-counts)|[C++](1301-1400/1371.find-the-longest-substring-containing-vowels-in-even-counts.cpp)|Medium|
 -|[1372.Longest ZigZag Path in a Binary Tree](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree)||Medium|
 -|[1373.Maximum Sum BST in Binary Tree](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree)||Hard|
--|[1374.Generate a String With Characters That Have Odd Counts](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts)||Easy|
+✔|[1374.Generate a String With Characters That Have Odd Counts](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts)|[Go](1301-1400/1374-generate-a-string-with-characters-that-have-odd-counts.go)|Easy|
 -|[1375.Bulb Switcher III](https://leetcode-cn.com/problems/bulb-switcher-iii)||Medium|
 -|[1376.Time Needed to Inform All Employees](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees)||Medium|
 -|[1377.Frog Position After T Seconds](https://leetcode-cn.com/problems/frog-position-after-t-seconds)||Hard|
@@ -1416,7 +1416,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1410.HTML Entity Parser](https://leetcode-cn.com/problems/html-entity-parser)||Medium|
 -|[1411.Number of Ways to Paint N × 3 Grid](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-×-3-grid)||Hard|
 -|[1412.Find the Quiet Students in All Exams](https://leetcode-cn.com/problems/find-the-quiet-students-in-all-exams)||Hard|
--|[1413.Minimum Value to Get Positive Step by Step Sum](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum)||Easy|
+✔|[1413.Minimum Value to Get Positive Step by Step Sum](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum)|[Go](1401-1500/1413-minimum-value-to-get-positive-step-by-step-sum.go)|Easy|
 -|[1414.Find the Minimum Number of Fibonacci Numbers Whose Sum Is K](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)||Medium|
 -|[1415.The k-th Lexicographical String of All Happy Strings of Length n](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n)||Medium|
 -|[1416.Restore The Array](https://leetcode-cn.com/problems/restore-the-array)||Hard|
