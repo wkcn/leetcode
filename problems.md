@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 34%|██████████████████                                   | 495/1456 [806 days<1565 days,  1.63s/it]
+ 35%|██████████████████▌                                  | 509/1456 [810 days<1507 days,  1.59s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -767,7 +767,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[759.Employee Free Time](https://leetcode-cn.com/problems/employee-free-time)||Hard|
 -|[760.Find Anagram Mappings](https://leetcode-cn.com/problems/find-anagram-mappings)||Easy|
 -|[761.Special Binary String](https://leetcode-cn.com/problems/special-binary-string)||Hard|
--|[762.Prime Number of Set Bits in Binary Representation](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation)||Easy|
+✔|[762.Prime Number of Set Bits in Binary Representation](https://leetcode-cn.com/problems/prime-number-of-set-bits-in-binary-representation)|[Python](0701-0800/0762-prime-number-of-set-bits-in-binary-representation.py)|Easy|
 ✔|[763.Partition Labels](https://leetcode-cn.com/problems/partition-labels)|[C++](0701-0800/0763.partition-labels.cpp)|Medium|
 -|[764.Largest Plus Sign](https://leetcode-cn.com/problems/largest-plus-sign)||Medium|
 ✔|[765.Couples Holding Hands](https://leetcode-cn.com/problems/couples-holding-hands)|[C++](0701-0800/0765.couples-holding-hands.cpp), [Rust](0701-0800/0765-couples-holding-hands.rs)|Hard|
@@ -786,7 +786,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[778.Swim in Rising Water](https://leetcode-cn.com/problems/swim-in-rising-water)|[Rust](0701-0800/0778-swim-in-rising-water.rs)|Hard|
 -|[779.K-th Symbol in Grammar](https://leetcode-cn.com/problems/k-th-symbol-in-grammar)||Medium|
 -|[780.Reaching Points](https://leetcode-cn.com/problems/reaching-points)||Hard|
--|[781.Rabbits in Forest](https://leetcode-cn.com/problems/rabbits-in-forest)||Medium|
+✔|[781.Rabbits in Forest](https://leetcode-cn.com/problems/rabbits-in-forest)|[Go](0701-0800/0781-rabbits-in-forest.go)|Medium|
 -|[782.Transform to Chessboard](https://leetcode-cn.com/problems/transform-to-chessboard)||Hard|
 -|[783.Minimum Distance Between BST Nodes](https://leetcode-cn.com/problems/minimum-distance-between-bst-nodes)||Easy|
 -|[784.Letter Case Permutation](https://leetcode-cn.com/problems/letter-case-permutation)||Easy|
@@ -913,7 +913,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[905.Sort Array By Parity](https://leetcode-cn.com/problems/sort-array-by-parity)||Easy|
 -|[906.Super Palindromes](https://leetcode-cn.com/problems/super-palindromes)||Hard|
 -|[907.Sum of Subarray Minimums](https://leetcode-cn.com/problems/sum-of-subarray-minimums)||Medium|
--|[908.Smallest Range I](https://leetcode-cn.com/problems/smallest-range-i)||Easy|
+✔|[908.Smallest Range I](https://leetcode-cn.com/problems/smallest-range-i)|[Go](0901-1000/0908-smallest-range-i.go)|Easy|
 -|[909.Snakes and Ladders](https://leetcode-cn.com/problems/snakes-and-ladders)||Medium|
 -|[910.Smallest Range II](https://leetcode-cn.com/problems/smallest-range-ii)||Medium|
 -|[911.Online Election](https://leetcode-cn.com/problems/online-election)||Medium|
@@ -938,7 +938,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[930.Binary Subarrays With Sum](https://leetcode-cn.com/problems/binary-subarrays-with-sum)||Medium|
 -|[931.Minimum Falling Path Sum](https://leetcode-cn.com/problems/minimum-falling-path-sum)||Medium|
 -|[932.Beautiful Array](https://leetcode-cn.com/problems/beautiful-array)||Medium|
--|[933.Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls)||Easy|
+✔|[933.Number of Recent Calls](https://leetcode-cn.com/problems/number-of-recent-calls)|[Go](0901-1000/0933-number-of-recent-calls.go)|Easy|
 -|[934.Shortest Bridge](https://leetcode-cn.com/problems/shortest-bridge)||Medium|
 -|[935.Knight Dialer](https://leetcode-cn.com/problems/knight-dialer)||Medium|
 -|[936.Stamping The Sequence](https://leetcode-cn.com/problems/stamping-the-sequence)||Hard|
@@ -970,7 +970,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[962.Maximum Width Ramp](https://leetcode-cn.com/problems/maximum-width-ramp)||Medium|
 -|[963.Minimum Area Rectangle II](https://leetcode-cn.com/problems/minimum-area-rectangle-ii)||Medium|
 -|[964.Least Operators to Express Number](https://leetcode-cn.com/problems/least-operators-to-express-number)||Hard|
--|[965.Univalued Binary Tree](https://leetcode-cn.com/problems/univalued-binary-tree)||Easy|
+✔|[965.Univalued Binary Tree](https://leetcode-cn.com/problems/univalued-binary-tree)|[C++](0901-1000/0965-univalued-binary-tree.cpp)|Easy|
 -|[966.Vowel Spellchecker](https://leetcode-cn.com/problems/vowel-spellchecker)||Medium|
 -|[967.Numbers With Same Consecutive Differences](https://leetcode-cn.com/problems/numbers-with-same-consecutive-differences)||Medium|
 ✔|[968.Binary Tree Cameras](https://leetcode-cn.com/problems/binary-tree-cameras)|[C++](0901-1000/0968.binary-tree-cameras.cpp)|Hard|
@@ -1011,7 +1011,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1003.Check If Word Is Valid After Substitutions](https://leetcode-cn.com/problems/check-if-word-is-valid-after-substitutions)||Medium|
 ✔|[1004.Max Consecutive Ones III](https://leetcode-cn.com/problems/max-consecutive-ones-iii)|[Rust](1001-1100/1004-max-consecutive-ones-iii.rs)|Medium|
 -|[1005.Maximize Sum Of Array After K Negations](https://leetcode-cn.com/problems/maximize-sum-of-array-after-k-negations)||Easy|
--|[1006.Clumsy Factorial](https://leetcode-cn.com/problems/clumsy-factorial)||Medium|
+✔|[1006.Clumsy Factorial](https://leetcode-cn.com/problems/clumsy-factorial)|[Go](1001-1100/1006-clumsy-factorial.go)|Medium|
 -|[1007.Minimum Domino Rotations For Equal Row](https://leetcode-cn.com/problems/minimum-domino-rotations-for-equal-row)||Medium|
 -|[1008.Construct Binary Search Tree from Preorder Traversal](https://leetcode-cn.com/problems/construct-binary-search-tree-from-preorder-traversal)||Medium|
 -|[1009.Complement of Base 10 Integer](https://leetcode-cn.com/problems/complement-of-base-10-integer)||Easy|
@@ -1146,7 +1146,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1140.Stone Game II](https://leetcode-cn.com/problems/stone-game-ii)||Medium|
 -|[1141.User Activity for the Past 30 Days I](https://leetcode-cn.com/problems/user-activity-for-the-past-30-days-i)||Easy|
 -|[1142.User Activity for the Past 30 Days II](https://leetcode-cn.com/problems/user-activity-for-the-past-30-days-ii)||Easy|
--|[1143.Longest Common Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence)||Medium|
+✔|[1143.Longest Common Subsequence](https://leetcode-cn.com/problems/longest-common-subsequence)|[Go](1101-1200/1143-longest-common-subsequence.go)|Medium|
 -|[1144.Decrease Elements To Make Array Zigzag](https://leetcode-cn.com/problems/decrease-elements-to-make-array-zigzag)||Medium|
 -|[1145.Binary Tree Coloring Game](https://leetcode-cn.com/problems/binary-tree-coloring-game)||Medium|
 -|[1146.Snapshot Array](https://leetcode-cn.com/problems/snapshot-array)||Medium|
@@ -1203,7 +1203,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1197.Minimum Knight Moves](https://leetcode-cn.com/problems/minimum-knight-moves)||Medium|
 -|[1198.Find Smallest Common Element in All Rows](https://leetcode-cn.com/problems/find-smallest-common-element-in-all-rows)||Medium|
 -|[1199.Minimum Time to Build Blocks](https://leetcode-cn.com/problems/minimum-time-to-build-blocks)||Hard|
--|[1200.Minimum Absolute Difference](https://leetcode-cn.com/problems/minimum-absolute-difference)||Easy|
+✔|[1200.Minimum Absolute Difference](https://leetcode-cn.com/problems/minimum-absolute-difference)|[Python](1101-1200/1200-minimum-absolute-difference.py)|Easy|
 -|[1201.Ugly Number III](https://leetcode-cn.com/problems/ugly-number-iii)||Medium|
 ✔|[1202.Smallest String With Swaps](https://leetcode-cn.com/problems/smallest-string-with-swaps)|[C++](1201-1300/1202.smallest-string-with-swaps.cpp)|Medium|
 ✔|[1203.Sort Items by Groups Respecting Dependencies](https://leetcode-cn.com/problems/sort-items-by-groups-respecting-dependencies)|[C++](1201-1300/1203.sort-items-by-groups-respecting-dependencies.cpp)|Hard|
@@ -1293,7 +1293,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1287.Element Appearing More Than 25% In Sorted Array](https://leetcode-cn.com/problems/element-appearing-more-than-25%-in-sorted-array)||Easy|
 -|[1288.Remove Covered Intervals](https://leetcode-cn.com/problems/remove-covered-intervals)||Medium|
 -|[1289.Minimum Falling Path Sum II](https://leetcode-cn.com/problems/minimum-falling-path-sum-ii)||Hard|
--|[1290.Convert Binary Number in a Linked List to Integer](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer)||Easy|
+✔|[1290.Convert Binary Number in a Linked List to Integer](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer)|[Go](1201-1300/1290-convert-binary-number-in-a-linked-list-to-integer.go)|Easy|
 -|[1291.Sequential Digits](https://leetcode-cn.com/problems/sequential-digits)||Medium|
 -|[1292.Maximum Side Length of a Square with Sum Less than or Equal to Threshold](https://leetcode-cn.com/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold)||Medium|
 -|[1293.Shortest Path in a Grid with Obstacles Elimination](https://leetcode-cn.com/problems/shortest-path-in-a-grid-with-obstacles-elimination)||Hard|
@@ -1312,7 +1312,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1306.Jump Game III](https://leetcode-cn.com/problems/jump-game-iii)||Medium|
 -|[1307.Verbal Arithmetic Puzzle](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle)||Hard|
 -|[1308.Running Total for Different Genders](https://leetcode-cn.com/problems/running-total-for-different-genders)||Medium|
--|[1309.Decrypt String from Alphabet to Integer Mapping](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping)||Easy|
+✔|[1309.Decrypt String from Alphabet to Integer Mapping](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping)|[Go](1301-1400/1309-decrypt-string-from-alphabet-to-integer-mapping.go)|Easy|
 -|[1310.XOR Queries of a Subarray](https://leetcode-cn.com/problems/xor-queries-of-a-subarray)||Medium|
 -|[1311.Get Watched Videos by Your Friends](https://leetcode-cn.com/problems/get-watched-videos-by-your-friends)||Medium|
 -|[1312.Minimum Insertion Steps to Make a String Palindrome](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome)||Hard|
@@ -1406,7 +1406,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1400.Construct K Palindrome Strings](https://leetcode-cn.com/problems/construct-k-palindrome-strings)||Medium|
 -|[1401.Circle and Rectangle Overlapping](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping)||Medium|
 -|[1402.Reducing Dishes](https://leetcode-cn.com/problems/reducing-dishes)||Hard|
--|[1403.Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order)||Easy|
+✔|[1403.Minimum Subsequence in Non-Increasing Order](https://leetcode-cn.com/problems/minimum-subsequence-in-non-increasing-order)|[C++](1401-1500/1403-minimum-subsequence-in-non-increasing-order.cpp), [Python](1401-1500/1403-minimum-subsequence-in-non-increasing-order.py)|Easy|
 -|[1404.Number of Steps to Reduce a Number in Binary Representation to One](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one)||Medium|
 -|[1405.Longest Happy String](https://leetcode-cn.com/problems/longest-happy-string)||Medium|
 -|[1406.Stone Game III](https://leetcode-cn.com/problems/stone-game-iii)||Hard|
@@ -1439,7 +1439,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1433.Check If a String Can Break Another String](https://leetcode-cn.com/problems/check-if-a-string-can-break-another-string)||Medium|
 -|[1434.Number of Ways to Wear Different Hats to Each Other](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other)||Hard|
 -|[1435.Create a Session Bar Chart](https://leetcode-cn.com/problems/create-a-session-bar-chart)||Easy|
--|[1436.Destination City](https://leetcode-cn.com/problems/destination-city)||Easy|
+✔|[1436.Destination City](https://leetcode-cn.com/problems/destination-city)|[Go](1401-1500/1436-destination-city.go)|Easy|
 -|[1437.Check If All 1's Are at Least Length K Places Away](https://leetcode-cn.com/problems/check-if-all-1's-are-at-least-length-k-places-away)||Medium|
 ✔|[1438.Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit)|[Rust](1401-1500/1438-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit.rs)|Medium|
 -|[1439.Find the Kth Smallest Sum of a Matrix With Sorted Rows](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows)||Hard|
