@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 35%|██████████████████▋                                  | 512/1456 [815 days<1503 days,  1.59s/it]
+ 35%|██████████████████▋                                  | 515/1456 [818 days<1495 days,  1.59s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -159,7 +159,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[151.Reverse Words in a String](https://leetcode-cn.com/problems/reverse-words-in-a-string)|[C++](0101-0200/0151.reverse-words-in-a-string.cpp)|Medium|
 ✔|[152.Maximum Product Subarray](https://leetcode-cn.com/problems/maximum-product-subarray)|[C++](0101-0200/0152.maximum-product-subarray.cpp)|Medium|
 ✔|[153.Find Minimum in Rotated Sorted Array](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array)|[Go](0101-0200/0153-find-minimum-in-rotated-sorted-array.go)|Medium|
-✔|[154.Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Go](0101-0200/0154-find-minimum-in-rotated-sorted-array-ii.go)|Hard|
+✔|[154.Find Minimum in Rotated Sorted Array II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii)|[Go](0101-0200/0154-find-minimum-in-rotated-sorted-array-ii.go), [Rust](0101-0200/0154-find-minimum-in-rotated-sorted-array-ii.rs)|Hard|
 ✔|[155.Min Stack](https://leetcode-cn.com/problems/min-stack)|[C++](0101-0200/0155.Min-Stack.cpp), [C++](0101-0200/0155.min-stack.cpp)|Easy|
 -|[156.Binary Tree Upside Down](https://leetcode-cn.com/problems/binary-tree-upside-down)||Medium|
 -|[157.Read N Characters Given Read4](https://leetcode-cn.com/problems/read-n-characters-given-read4)||Easy|
@@ -184,7 +184,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[176.Second Highest Salary](https://leetcode-cn.com/problems/second-highest-salary)||Easy|
 -|[177.Nth Highest Salary](https://leetcode-cn.com/problems/nth-highest-salary)||Medium|
 -|[178.Rank Scores](https://leetcode-cn.com/problems/rank-scores)||Medium|
-✔|[179.Largest Number](https://leetcode-cn.com/problems/largest-number)|[Rust](0101-0200/0179-largest-number.rs)|Medium|
+✔|[179.Largest Number](https://leetcode-cn.com/problems/largest-number)|[C++](0101-0200/0179-largest-number.cpp), [Rust](0101-0200/0179-largest-number.rs)|Medium|
 -|[180.Consecutive Numbers](https://leetcode-cn.com/problems/consecutive-numbers)||Medium|
 -|[181.Employees Earning More Than Their Managers](https://leetcode-cn.com/problems/employees-earning-more-than-their-managers)||Easy|
 -|[182.Duplicate Emails](https://leetcode-cn.com/problems/duplicate-emails)||Easy|
@@ -268,8 +268,8 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[260.Single Number III](https://leetcode-cn.com/problems/single-number-iii)|[C++](0201-0300/0260.single-number-iii.cpp)|Medium|
 -|[261.Graph Valid Tree](https://leetcode-cn.com/problems/graph-valid-tree)||Medium|
 -|[262.Trips and Users](https://leetcode-cn.com/problems/trips-and-users)||Hard|
-✔|[263.Ugly Number](https://leetcode-cn.com/problems/ugly-number)|[C++](0201-0300/0263.ugly-number.cpp)|Easy|
--|[264.Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii)||Medium|
+✔|[263.Ugly Number](https://leetcode-cn.com/problems/ugly-number)|[C++](0201-0300/0263.ugly-number.cpp), [Rust](0201-0300/0263-ugly-number.rs)|Easy|
+✔|[264.Ugly Number II](https://leetcode-cn.com/problems/ugly-number-ii)|[C++](0201-0300/0264-ugly-number-ii.cpp)|Medium|
 -|[265.Paint House II](https://leetcode-cn.com/problems/paint-house-ii)||Hard|
 -|[266.Palindrome Permutation](https://leetcode-cn.com/problems/palindrome-permutation)||Easy|
 -|[267.Palindrome Permutation II](https://leetcode-cn.com/problems/palindrome-permutation-ii)||Medium|
@@ -1326,7 +1326,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1320.Minimum Distance to Type a Word Using Two Fingers](https://leetcode-cn.com/problems/minimum-distance-to-type-a-word-using-two-fingers)||Hard|
 -|[1321.Restaurant Growth](https://leetcode-cn.com/problems/restaurant-growth)||Medium|
 -|[1322.Ads Performance](https://leetcode-cn.com/problems/ads-performance)||Easy|
--|[1323.Maximum 69 Number](https://leetcode-cn.com/problems/maximum-69-number)||Easy|
+✔|[1323.Maximum 69 Number](https://leetcode-cn.com/problems/maximum-69-number)|[Python](1301-1400/1323-maximum-69-number.py)|Easy|
 -|[1324.Print Words Vertically](https://leetcode-cn.com/problems/print-words-vertically)||Medium|
 -|[1325.Delete Leaves With a Given Value](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value)||Medium|
 -|[1326.Minimum Number of Taps to Open to Water a Garden](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden)||Hard|
