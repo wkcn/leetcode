@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 38%|███████████████████▉                                 | 546/1456 [866 days<1443 days,  1.59s/it]
+ 39%|████████████████████▌                                | 566/1456 [886 days<1393 days,  1.57s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -208,7 +208,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[200.Number of Islands](https://leetcode-cn.com/problems/number-of-islands)|[C++](0101-0200/0200.number-of-islands.cpp)|Medium|
 ✔|[201.Bitwise AND of Numbers Range](https://leetcode-cn.com/problems/bitwise-and-of-numbers-range)|[C++](0201-0300/0201.bitwise-and-of-numbers-range.cpp)|Medium|
 ✔|[202.Happy Number](https://leetcode-cn.com/problems/happy-number)|[C++](0201-0300/0202.Happy-Number.cpp), [C++](0201-0300/0202.happy-number.cpp)|Easy|
--|[203.Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements)||Easy|
+✔|[203.Remove Linked List Elements](https://leetcode-cn.com/problems/remove-linked-list-elements)|[C++](0201-0300/0203-emove-linked-list-elements.cpp)|Easy|
 ✔|[204.Count Primes](https://leetcode-cn.com/problems/count-primes)|[C++](0201-0300/0204.count-primes.cpp)|Easy|
 ✔|[205.Isomorphic Strings](https://leetcode-cn.com/problems/isomorphic-strings)|[C++](0201-0300/0205.isomorphic-strings.cpp)|Easy|
 ✔|[206.Reverse Linked List](https://leetcode-cn.com/problems/reverse-linked-list)|[C++](0201-0300/0206.reverse-linked-list.cpp)|Easy|
@@ -283,8 +283,8 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[275.H-Index II](https://leetcode-cn.com/problems/h-index-ii)||Medium|
 -|[276.Paint Fence](https://leetcode-cn.com/problems/paint-fence)||Easy|
 -|[277.Find the Celebrity](https://leetcode-cn.com/problems/find-the-celebrity)||Medium|
-✔|[278.First Bad Version](https://leetcode-cn.com/problems/first-bad-version)|[C++](0201-0300/0278.first-bad-version.cpp)|Easy|
-✔|[279.Perfect Squares](https://leetcode-cn.com/problems/perfect-squares)|[Rust](0201-0300/0279-perfect-squares.rs)|Medium|
+✔|[278.First Bad Version](https://leetcode-cn.com/problems/first-bad-version)|[C++](0201-0300/0278-first-bad-version.cpp), [C++](0201-0300/0278.first-bad-version.cpp)|Easy|
+✔|[279.Perfect Squares](https://leetcode-cn.com/problems/perfect-squares)|[C++](0201-0300/0279-perfect-squares.cpp), [Python](0201-0300/0279-perfect-squares.py), [Rust](0201-0300/0279-perfect-squares.rs)|Medium|
 -|[280.Wiggle Sort](https://leetcode-cn.com/problems/wiggle-sort)||Medium|
 -|[281.Zigzag Iterator](https://leetcode-cn.com/problems/zigzag-iterator)||Medium|
 -|[282.Expression Add Operators](https://leetcode-cn.com/problems/expression-add-operators)||Hard|
@@ -327,7 +327,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[319.Bulb Switcher](https://leetcode-cn.com/problems/bulb-switcher)||Medium|
 -|[320.Generalized Abbreviation](https://leetcode-cn.com/problems/generalized-abbreviation)||Medium|
 ✔|[321.Create Maximum Number](https://leetcode-cn.com/problems/create-maximum-number)|[C++](0301-0400/0321.create-maximum-number.cpp)|Hard|
--|[322.Coin Change](https://leetcode-cn.com/problems/coin-change)||Medium|
+✔|[322.Coin Change](https://leetcode-cn.com/problems/coin-change)|[Python](0301-0400/0322-coin-change.py)|Medium|
 -|[323.Number of Connected Components in an Undirected Graph](https://leetcode-cn.com/problems/number-of-connected-components-in-an-undirected-graph)||Medium|
 -|[324.Wiggle Sort II](https://leetcode-cn.com/problems/wiggle-sort-ii)||Medium|
 -|[325.Maximum Size Subarray Sum Equals k](https://leetcode-cn.com/problems/maximum-size-subarray-sum-equals-k)||Medium|
@@ -347,7 +347,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[339.Nested List Weight Sum](https://leetcode-cn.com/problems/nested-list-weight-sum)||Easy|
 -|[340.Longest Substring with At Most K Distinct Characters](https://leetcode-cn.com/problems/longest-substring-with-at-most-k-distinct-characters)||Hard|
 ✔|[341.Flatten Nested List Iterator](https://leetcode-cn.com/problems/flatten-nested-list-iterator)|[C++](0301-0400/0341-flatten-nested-list-iterator.cpp)|Medium|
--|[342.Power of Four](https://leetcode-cn.com/problems/power-of-four)||Easy|
+✔|[342.Power of Four](https://leetcode-cn.com/problems/power-of-four)|[C++](0301-0400/0342-power-of-four.cpp)|Easy|
 ✔|[343.Integer Break](https://leetcode-cn.com/problems/integer-break)|[C++](0301-0400/0343.integer-break.cpp)|Medium|
 ✔|[344.Reverse String](https://leetcode-cn.com/problems/reverse-string)|[C++](0301-0400/0344.reverse-string.cpp)|Easy|
 ✔|[345.Reverse Vowels of a String](https://leetcode-cn.com/problems/reverse-vowels-of-a-string)|[Rust](0301-0400/0345-reverse-vowels-of-a-string.rs)|Easy|
@@ -382,7 +382,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[374.Guess Number Higher or Lower](https://leetcode-cn.com/problems/guess-number-higher-or-lower)|[C++](0301-0400/0374.guess-number-higher-or-lower.cpp)|Easy|
 -|[375.Guess Number Higher or Lower II](https://leetcode-cn.com/problems/guess-number-higher-or-lower-ii)||Medium|
 ✔|[376.Wiggle Subsequence](https://leetcode-cn.com/problems/wiggle-subsequence)|[C++](0301-0400/0376.wiggle-subsequence.cpp)|Medium|
-✔|[377.Combination Sum IV](https://leetcode-cn.com/problems/combination-sum-iv)|[C++](0301-0400/0377.combination-sum-iv.cpp)|Medium|
+✔|[377.Combination Sum IV](https://leetcode-cn.com/problems/combination-sum-iv)|[C++](0301-0400/0377.combination-sum-iv.cpp), [Python](0301-0400/0377-combination-sum-iv.py)|Medium|
 ✔|[378.Kth Smallest Element in a Sorted Matrix](https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix)|[C++](0301-0400/0378.kth-smallest-element-in-a-sorted-matrix.cpp)|Medium|
 -|[379.Design Phone Directory](https://leetcode-cn.com/problems/design-phone-directory)||Medium|
 -|[380.Insert Delete GetRandom O(1)](https://leetcode-cn.com/problems/insert-delete-getrandom-o1)||Medium|
@@ -421,12 +421,12 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[413.Arithmetic Slices](https://leetcode-cn.com/problems/arithmetic-slices)||Medium|
 ✔|[414.Third Maximum Number](https://leetcode-cn.com/problems/third-maximum-number)|[C++](0401-0500/0414.third-maximum-number.cpp)|Easy|
 ✔|[415.Add Strings](https://leetcode-cn.com/problems/add-strings)|[C++](0401-0500/0415.add-strings.cpp)|Easy|
-✔|[416.Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum)|[C++](0401-0500/0416.partition-equal-subset-sum.cpp)|Medium|
+✔|[416.Partition Equal Subset Sum](https://leetcode-cn.com/problems/partition-equal-subset-sum)|[C++](0401-0500/0416.partition-equal-subset-sum.cpp), [Python](0401-0500/0416-partition-equal-subset-sum.py)|Medium|
 -|[417.Pacific Atlantic Water Flow](https://leetcode-cn.com/problems/pacific-atlantic-water-flow)||Medium|
 -|[418.Sentence Screen Fitting](https://leetcode-cn.com/problems/sentence-screen-fitting)||Medium|
 ✔|[419.Battleships in a Board](https://leetcode-cn.com/problems/battleships-in-a-board)|[C++](0401-0500/0419.battleships-in-a-board.cpp)|Medium|
 -|[420.Strong Password Checker](https://leetcode-cn.com/problems/strong-password-checker)||Hard|
--|[421.Maximum XOR of Two Numbers in an Array](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array)||Medium|
+✔|[421.Maximum XOR of Two Numbers in an Array](https://leetcode-cn.com/problems/maximum-xor-of-two-numbers-in-an-array)|[C++](0401-0500/0421-maximum-xor-of-two-numbers-in-an-array.cpp)|Medium|
 -|[422.Valid Word Square](https://leetcode-cn.com/problems/valid-word-square)||Easy|
 ✔|[423.Reconstruct Original Digits from English](https://leetcode-cn.com/problems/reconstruct-original-digits-from-english)|[C++](0401-0500/0423.reconstruct-original-digits-from-english.cpp)|Medium|
 ✔|[424.Longest Repeating Character Replacement](https://leetcode-cn.com/problems/longest-repeating-character-replacement)|[Rust](0401-0500/0424-longest-repeating-character-replacement.rs)|Medium|
@@ -479,7 +479,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[471.Encode String with Shortest Length](https://leetcode-cn.com/problems/encode-string-with-shortest-length)||Hard|
 -|[472.Concatenated Words](https://leetcode-cn.com/problems/concatenated-words)||Hard|
 -|[473.Matchsticks to Square](https://leetcode-cn.com/problems/matchsticks-to-square)||Medium|
--|[474.Ones and Zeroes](https://leetcode-cn.com/problems/ones-and-zeroes)||Medium|
+✔|[474.Ones and Zeroes](https://leetcode-cn.com/problems/ones-and-zeroes)|[C++](0401-0500/0474-ones-and-zeroes.cpp)|Medium|
 -|[475.Heaters](https://leetcode-cn.com/problems/heaters)||Easy|
 -|[476.Number Complement](https://leetcode-cn.com/problems/number-complement)||Easy|
 ✔|[477.Total Hamming Distance](https://leetcode-cn.com/problems/total-hamming-distance)|[C++](0401-0500/0477-total-hamming-distance.cpp)|Medium|
@@ -488,7 +488,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[480.Sliding Window Median](https://leetcode-cn.com/problems/sliding-window-median)|[C++](0401-0500/0480.sliding-window-median.cpp)|Hard|
 ✔|[481.Magical String](https://leetcode-cn.com/problems/magical-string)|[C++](0401-0500/0481.magical-string.cpp)|Medium|
 ✔|[482.License Key Formatting](https://leetcode-cn.com/problems/license-key-formatting)|[C++](0401-0500/0482.license-key-formatting.cpp)|Easy|
--|[483.Smallest Good Base](https://leetcode-cn.com/problems/smallest-good-base)||Hard|
+✔|[483.Smallest Good Base](https://leetcode-cn.com/problems/smallest-good-base)|[C++](0401-0500/0483-smallest-good-base.cpp)|Hard|
 -|[484.Find Permutation](https://leetcode-cn.com/problems/find-permutation)||Medium|
 ✔|[485.Max Consecutive Ones](https://leetcode-cn.com/problems/max-consecutive-ones)|[C++](0401-0500/0485.max-consecutive-ones.cpp), [Rust](0401-0500/0485-max-consecutive-ones.rs)|Easy|
 ✔|[486.Predict the Winner](https://leetcode-cn.com/problems/predict-the-winner)|[C++](0401-0500/0486.predict-the-winner.cpp)|Medium|
@@ -499,7 +499,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[491.Increasing Subsequences](https://leetcode-cn.com/problems/increasing-subsequences)|[C++](0401-0500/0491.increasing-subsequences.cpp)|Medium|
 ✔|[492.Construct the Rectangle](https://leetcode-cn.com/problems/construct-the-rectangle)|[Rust](0401-0500/0492-construct-the-rectangle.rs)|Easy|
 ✔|[493.Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs)|[C++](0401-0500/0493.reverse-pairs.cpp)|Hard|
--|[494.Target Sum](https://leetcode-cn.com/problems/target-sum)||Medium|
+✔|[494.Target Sum](https://leetcode-cn.com/problems/target-sum)|[C++](0401-0500/0494-target-sum.cpp), [Python](0401-0500/0494-target-sum.py)|Medium|
 -|[495.Teemo Attacking](https://leetcode-cn.com/problems/teemo-attacking)||Medium|
 -|[496.Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i)||Easy|
 -|[497.Random Point in Non-overlapping Rectangles](https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles)||Medium|
@@ -523,14 +523,14 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[515.Find Largest Value in Each Tree Row](https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row)||Medium|
 -|[516.Longest Palindromic Subsequence](https://leetcode-cn.com/problems/longest-palindromic-subsequence)||Medium|
 -|[517.Super Washing Machines](https://leetcode-cn.com/problems/super-washing-machines)||Hard|
--|[518.Coin Change 2](https://leetcode-cn.com/problems/coin-change-2)||Medium|
+✔|[518.Coin Change 2](https://leetcode-cn.com/problems/coin-change-2)|[C++](0501-0600/0518-coin-change-2.cpp), [Python](0501-0600/0518-coin-change-2.py)|Medium|
 -|[519.Random Flip Matrix](https://leetcode-cn.com/problems/random-flip-matrix)||Medium|
 ✔|[520.Detect Capital](https://leetcode-cn.com/problems/detect-capital)|[C++](0501-0600/0520.detect-capital.cpp)|Easy|
 ✔|[521.Longest Uncommon Subsequence I](https://leetcode-cn.com/problems/longest-uncommon-subsequence-i)|[C++](0501-0600/0521.longest-uncommon-subsequence-i.cpp)|Easy|
 ✔|[522.Longest Uncommon Subsequence II](https://leetcode-cn.com/problems/longest-uncommon-subsequence-ii)|[C++](0501-0600/0522.longest-uncommon-subsequence-ii.cpp)|Medium|
--|[523.Continuous Subarray Sum](https://leetcode-cn.com/problems/continuous-subarray-sum)||Medium|
+✔|[523.Continuous Subarray Sum](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](0501-0600/0523-continuous-subarray-sum.cpp)|Medium|
 -|[524.Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting)||Medium|
--|[525.Contiguous Array](https://leetcode-cn.com/problems/contiguous-array)||Medium|
+✔|[525.Contiguous Array](https://leetcode-cn.com/problems/contiguous-array)|[C++](0501-0600/0525-contiguous-array.cpp)|Medium|
 -|[526.Beautiful Arrangement](https://leetcode-cn.com/problems/beautiful-arrangement)||Medium|
 -|[527.Word Abbreviation](https://leetcode-cn.com/problems/word-abbreviation)||Hard|
 ✔|[528.Random Pick with Weight](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](0501-0600/0528.random-pick-with-weight.cpp)|Medium|
@@ -669,7 +669,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[661.Image Smoother](https://leetcode-cn.com/problems/image-smoother)|[C++](0601-0700/0661.image-smoother.cpp)|Easy|
 -|[662.Maximum Width of Binary Tree](https://leetcode-cn.com/problems/maximum-width-of-binary-tree)||Medium|
 -|[663.Equal Tree Partition](https://leetcode-cn.com/problems/equal-tree-partition)||Medium|
--|[664.Strange Printer](https://leetcode-cn.com/problems/strange-printer)||Hard|
+✔|[664.Strange Printer](https://leetcode-cn.com/problems/strange-printer)|[C++](0601-0700/0664-strange-printer.cpp)|Hard|
 ✔|[665.Non-decreasing Array](https://leetcode-cn.com/problems/non-decreasing-array)|[C++](0601-0700/0665.non-decreasing-array.cpp), [Rust](0601-0700/0665-non-decreasing-array.rs)|Easy|
 -|[666.Path Sum IV](https://leetcode-cn.com/problems/path-sum-iv)||Medium|
 -|[667.Beautiful Arrangement II](https://leetcode-cn.com/problems/beautiful-arrangement-ii)||Medium|
@@ -857,7 +857,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[849.Maximize Distance to Closest Person](https://leetcode-cn.com/problems/maximize-distance-to-closest-person)||Easy|
 -|[850.Rectangle Area II](https://leetcode-cn.com/problems/rectangle-area-ii)||Hard|
 -|[851.Loud and Rich](https://leetcode-cn.com/problems/loud-and-rich)||Medium|
--|[852.Peak Index in a Mountain Array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array)||Easy|
+✔|[852.Peak Index in a Mountain Array](https://leetcode-cn.com/problems/peak-index-in-a-mountain-array)|[C++](0801-0900/0852-peak-index-in-a-mountain-array.cpp)|Easy|
 -|[853.Car Fleet](https://leetcode-cn.com/problems/car-fleet)||Medium|
 -|[854.K-Similar Strings](https://leetcode-cn.com/problems/k-similar-strings)||Hard|
 -|[855.Exam Room](https://leetcode-cn.com/problems/exam-room)||Medium|
@@ -884,7 +884,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[876.Middle of the Linked List](https://leetcode-cn.com/problems/middle-of-the-linked-list)|[C++](0801-0900/0876.middle-of-the-linked-list.cpp)|Easy|
 ✔|[877.Stone Game](https://leetcode-cn.com/problems/stone-game)|[Rust](0801-0900/0877-stone-game.rs)|Medium|
 -|[878.Nth Magical Number](https://leetcode-cn.com/problems/nth-magical-number)||Hard|
--|[879.Profitable Schemes](https://leetcode-cn.com/problems/profitable-schemes)||Hard|
+✔|[879.Profitable Schemes](https://leetcode-cn.com/problems/profitable-schemes)|[C++](0801-0900/0879-profitable-schemes.cpp)|Hard|
 -|[880.Decoded String at Index](https://leetcode-cn.com/problems/decoded-string-at-index)||Medium|
 -|[881.Boats to Save People](https://leetcode-cn.com/problems/boats-to-save-people)||Medium|
 -|[882.Reachable Nodes In Subdivided Graph](https://leetcode-cn.com/problems/reachable-nodes-in-subdivided-graph)||Hard|
@@ -1054,7 +1054,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[1046.Last Stone Weight](https://leetcode-cn.com/problems/last-stone-weight)|[C++](1001-1100/1046.last-stone-weight.cpp)|Easy|
 ✔|[1047.Remove All Adjacent Duplicates In String](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string)|[Rust](1001-1100/1047-remove-all-adjacent-duplicates-in-string.rs)|Easy|
 -|[1048.Longest String Chain](https://leetcode-cn.com/problems/longest-string-chain)||Medium|
--|[1049.Last Stone Weight II](https://leetcode-cn.com/problems/last-stone-weight-ii)||Medium|
+✔|[1049.Last Stone Weight II](https://leetcode-cn.com/problems/last-stone-weight-ii)|[C++](1001-1100/1049-last-stone-weight-ii.cpp)|Medium|
 -|[1050.Actors and Directors Who Cooperated At Least Three Times](https://leetcode-cn.com/problems/actors-and-directors-who-cooperated-at-least-three-times)||Easy|
 -|[1053.Previous Permutation With One Swap](https://leetcode-cn.com/problems/previous-permutation-with-one-swap)||Medium|
 -|[1054.Distant Barcodes](https://leetcode-cn.com/problems/distant-barcodes)||Medium|
@@ -1158,7 +1158,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1152.Analyze User Website Visit Pattern](https://leetcode-cn.com/problems/analyze-user-website-visit-pattern)||Medium|
 -|[1153.String Transforms Into Another String](https://leetcode-cn.com/problems/string-transforms-into-another-string)||Hard|
 -|[1154.Day of the Year](https://leetcode-cn.com/problems/day-of-the-year)||Easy|
--|[1155.Number of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum)||Medium|
+✔|[1155.Number of Dice Rolls With Target Sum](https://leetcode-cn.com/problems/number-of-dice-rolls-with-target-sum)|[Python](1101-1200/1155-number-of-dice-rolls-with-target-sum.py)|Medium|
 -|[1156.Swap For Longest Repeated Character Substring](https://leetcode-cn.com/problems/swap-for-longest-repeated-character-substring)||Medium|
 -|[1157.Online Majority Element In Subarray](https://leetcode-cn.com/problems/online-majority-element-in-subarray)||Hard|
 -|[1158.Market Analysis I](https://leetcode-cn.com/problems/market-analysis-i)||Medium|
@@ -1242,7 +1242,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1236.Web Crawler](https://leetcode-cn.com/problems/web-crawler)||Medium|
 -|[1237.Find Positive Integer Solution for a Given Equation](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation)||Easy|
 -|[1238.Circular Permutation in Binary Representation](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation)||Medium|
--|[1239.Maximum Length of a Concatenated String with Unique Characters](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)||Medium|
+✔|[1239.Maximum Length of a Concatenated String with Unique Characters](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters)|[C++](1201-1300/1239-maximum-length-of-a-concatenated-string-with-unique-characters.cpp)|Medium|
 -|[1240.Tiling a Rectangle with the Fewest Squares](https://leetcode-cn.com/problems/tiling-a-rectangle-with-the-fewest-squares)||Hard|
 -|[1241.Number of Comments per Post](https://leetcode-cn.com/problems/number-of-comments-per-post)||Easy|
 -|[1242.Web Crawler Multithreaded](https://leetcode-cn.com/problems/web-crawler-multithreaded)||Medium|
