@@ -3,14 +3,16 @@
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {
-      vector<int> rec;
+      vector<int> vs;
       for (int x : nums) {
-        // 等于的时候不更新
-        auto p = lower_bound(rec.begin(), rec.end(), x);
-        if (p == rec.end()) rec.push_back(x);
-        else *p = x; // 此时的*p >= x
+        auto p = lower_bound(vs.begin(), vs.end(), x);
+        if (p == vs.end()) {
+          vs.push_back(x);
+        } else {
+          *p = x;
+        }
       }
-      return rec.size();
+      return vs.size();
     }
 };
 
