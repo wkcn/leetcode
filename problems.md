@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 42%|██████████████████████▏                              | 608/1456 [925 days<1290 days,  1.52s/it]
+ 42%|██████████████████████▍                              | 617/1456 [954 days<1297 days,  1.55s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -176,7 +176,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[168.Excel Sheet Column Title](https://leetcode-cn.com/problems/excel-sheet-column-title)|[C++](0101-0200/0168-excel-sheet-column-title.cpp), [C++](0101-0200/0168.excel-sheet-column-title.cpp)|Easy|
 -|[169.Majority Element](https://leetcode-cn.com/problems/majority-element)||Easy|
 -|[170.Two Sum III - Data structure design](https://leetcode-cn.com/problems/two-sum-iii---data-structure-design)||Easy|
-✔|[171.Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number)|[C++](0101-0200/0171.excel-sheet-column-number.cpp)|Easy|
+✔|[171.Excel Sheet Column Number](https://leetcode-cn.com/problems/excel-sheet-column-number)|[C++](0101-0200/0171-excel-sheet-column-number.cpp), [C++](0101-0200/0171.excel-sheet-column-number.cpp)|Easy|
 ✔|[172.Factorial Trailing Zeroes](https://leetcode-cn.com/problems/factorial-trailing-zeroes)|[C++](0101-0200/0172.factorial-trailing-zeroes.cpp)|Easy|
 ✔|[173.Binary Search Tree Iterator](https://leetcode-cn.com/problems/binary-search-tree-iterator)|[C++](0101-0200/0173-binary-search-tree-iterator.cpp)|Medium|
 ✔|[174.Dungeon Game](https://leetcode-cn.com/problems/dungeon-game)|[C++](0101-0200/0174.dungeon-game.cpp)|Hard|
@@ -238,7 +238,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[230.Kth Smallest Element in a BST](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)||Medium|
 ✔|[231.Power of Two](https://leetcode-cn.com/problems/power-of-two)|[C++](0201-0300/0231.power-of-two.cpp)|Easy|
 ✔|[232.Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[C++](0201-0300/0232.implement-queue-using-stacks.cpp)|Easy|
--|[233.Number of Digit One](https://leetcode-cn.com/problems/number-of-digit-one)||Hard|
+✔|[233.Number of Digit One](https://leetcode-cn.com/problems/number-of-digit-one)|[C++](0201-0300/0233-number-of-digit-one.cpp)|Hard|
 ✔|[234.Palindrome Linked List](https://leetcode-cn.com/problems/palindrome-linked-list)|[C++](0201-0300/0234.palindrome-linked-list.cpp)|Easy|
 ✔|[235.Lowest Common Ancestor of a Binary Search Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree)|[C++](0201-0300/0235.lowest-common-ancestor-of-a-binary-search-tree.cpp)|Easy|
 ✔|[236.Lowest Common Ancestor of a Binary Tree](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree)|[C++](0201-0300/0236.lowest-common-ancestor-of-a-binary-tree.cpp)|Medium|
@@ -462,7 +462,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[454.4Sum II](https://leetcode-cn.com/problems/4sum-ii)|[C++](0401-0500/0454.4sum-ii.cpp)|Medium|
 ✔|[455.Assign Cookies](https://leetcode-cn.com/problems/assign-cookies)|[C++](0401-0500/0455.assign-cookies.cpp)|Easy|
 ✔|[456.132 Pattern](https://leetcode-cn.com/problems/132-pattern)|[C++](0401-0500/0456-132-pattern.cpp), [Rust](0401-0500/0456-132-pattern.rs)|Medium|
--|[457.Circular Array Loop](https://leetcode-cn.com/problems/circular-array-loop)||Medium|
+✔|[457.Circular Array Loop](https://leetcode-cn.com/problems/circular-array-loop)|[Python](0401-0500/0457-circular-array-loop.py)|Medium|
 -|[458.Poor Pigs](https://leetcode-cn.com/problems/poor-pigs)||Hard|
 ✔|[459.Repeated Substring Pattern](https://leetcode-cn.com/problems/repeated-substring-pattern)|[C++](0401-0500/0459.repeated-substring-pattern.cpp)|Easy|
 ✔|[460.LFU Cache](https://leetcode-cn.com/problems/lfu-cache)|[C++](0401-0500/0460.lfu-cache.cpp)|Hard|
@@ -531,7 +531,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[523.Continuous Subarray Sum](https://leetcode-cn.com/problems/continuous-subarray-sum)|[C++](0501-0600/0523-continuous-subarray-sum.cpp)|Medium|
 -|[524.Longest Word in Dictionary through Deleting](https://leetcode-cn.com/problems/longest-word-in-dictionary-through-deleting)||Medium|
 ✔|[525.Contiguous Array](https://leetcode-cn.com/problems/contiguous-array)|[C++](0501-0600/0525-contiguous-array.cpp)|Medium|
--|[526.Beautiful Arrangement](https://leetcode-cn.com/problems/beautiful-arrangement)||Medium|
+✔|[526.Beautiful Arrangement](https://leetcode-cn.com/problems/beautiful-arrangement)|[C++](0501-0600/0526-beautiful-arrangement.cpp)|Medium|
 -|[527.Word Abbreviation](https://leetcode-cn.com/problems/word-abbreviation)||Hard|
 ✔|[528.Random Pick with Weight](https://leetcode-cn.com/problems/random-pick-with-weight)|[C++](0501-0600/0528.random-pick-with-weight.cpp)|Medium|
 ✔|[529.Minesweeper](https://leetcode-cn.com/problems/minesweeper)|[C++](0501-0600/0529.minesweeper.cpp)|Medium|
@@ -556,7 +556,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[548.Split Array with Equal Sum](https://leetcode-cn.com/problems/split-array-with-equal-sum)||Medium|
 -|[549.Binary Tree Longest Consecutive Sequence II](https://leetcode-cn.com/problems/binary-tree-longest-consecutive-sequence-ii)||Medium|
 -|[550.Game Play Analysis IV](https://leetcode-cn.com/problems/game-play-analysis-iv)||Medium|
-✔|[551.Student Attendance Record I](https://leetcode-cn.com/problems/student-attendance-record-i)|[C++](0501-0600/0551.student-attendance-record-i.cpp)|Easy|
+✔|[551.Student Attendance Record I](https://leetcode-cn.com/problems/student-attendance-record-i)|[C++](0501-0600/0551-student-attendance-record-i.cpp), [C++](0501-0600/0551.student-attendance-record-i.cpp)|Easy|
 -|[552.Student Attendance Record II](https://leetcode-cn.com/problems/student-attendance-record-ii)||Hard|
 ✔|[553.Optimal Division](https://leetcode-cn.com/problems/optimal-division)|[C++](0501-0600/0553.optimal-division.cpp)|Medium|
 ✔|[554.Brick Wall](https://leetcode-cn.com/problems/brick-wall)|[Rust](0501-0600/0554-brick-wall.rs)|Medium|
@@ -581,7 +581,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[573.Squirrel Simulation](https://leetcode-cn.com/problems/squirrel-simulation)||Medium|
 -|[574.Winning Candidate](https://leetcode-cn.com/problems/winning-candidate)||Medium|
 ✔|[575.Distribute Candies](https://leetcode-cn.com/problems/distribute-candies)|[Rust](0501-0600/0575-distribute-candies.rs)|Easy|
--|[576.Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths)||Medium|
+✔|[576.Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths)|[C++](0501-0600/0576-out-of-boundary-paths.cpp)|Medium|
 -|[577.Employee Bonus](https://leetcode-cn.com/problems/employee-bonus)||Easy|
 -|[578.Get Highest Answer Rate Question](https://leetcode-cn.com/problems/get-highest-answer-rate-question)||Medium|
 -|[579.Find Cumulative Salary of an Employee](https://leetcode-cn.com/problems/find-cumulative-salary-of-an-employee)||Hard|
@@ -792,7 +792,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[784.Letter Case Permutation](https://leetcode-cn.com/problems/letter-case-permutation)||Easy|
 ✔|[785.Is Graph Bipartite?](https://leetcode-cn.com/problems/is-graph-bipartite?)|[C++](0701-0800/0785.is-graph-bipartite.cpp)|Medium|
 -|[786.K-th Smallest Prime Fraction](https://leetcode-cn.com/problems/k-th-smallest-prime-fraction)||Hard|
--|[787.Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)||Medium|
+✔|[787.Cheapest Flights Within K Stops](https://leetcode-cn.com/problems/cheapest-flights-within-k-stops)|[C++](0701-0800/0787-cheapest-flights-within-k-stops.cpp)|Medium|
 -|[788.Rotated Digits](https://leetcode-cn.com/problems/rotated-digits)||Easy|
 -|[789.Escape The Ghosts](https://leetcode-cn.com/problems/escape-the-ghosts)||Medium|
 -|[790.Domino and Tromino Tiling](https://leetcode-cn.com/problems/domino-and-tromino-tiling)||Medium|
@@ -852,7 +852,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[844.Backspace String Compare](https://leetcode-cn.com/problems/backspace-string-compare)||Easy|
 ✔|[845.Longest Mountain in Array](https://leetcode-cn.com/problems/longest-mountain-in-array)|[C++](0801-0900/0845.longest-mountain-in-array.cpp)|Medium|
 -|[846.Hand of Straights](https://leetcode-cn.com/problems/hand-of-straights)||Medium|
--|[847.Shortest Path Visiting All Nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes)||Hard|
+✔|[847.Shortest Path Visiting All Nodes](https://leetcode-cn.com/problems/shortest-path-visiting-all-nodes)|[C++](0801-0900/0847-shortest-path-visiting-all-nodes.cpp)|Hard|
 ✔|[848.Shifting Letters](https://leetcode-cn.com/problems/shifting-letters)|[C++](0801-0900/0848.Shifting-Letters.cpp)|Medium|
 -|[849.Maximize Distance to Closest Person](https://leetcode-cn.com/problems/maximize-distance-to-closest-person)||Easy|
 -|[850.Rectangle Area II](https://leetcode-cn.com/problems/rectangle-area-ii)||Hard|
@@ -992,7 +992,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[984.String Without AAA or BBB](https://leetcode-cn.com/problems/string-without-aaa-or-bbb)||Medium|
 -|[985.Sum of Even Numbers After Queries](https://leetcode-cn.com/problems/sum-of-even-numbers-after-queries)||Easy|
 -|[986.Interval List Intersections](https://leetcode-cn.com/problems/interval-list-intersections)||Medium|
--|[987.Vertical Order Traversal of a Binary Tree](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree)||Medium|
+✔|[987.Vertical Order Traversal of a Binary Tree](https://leetcode-cn.com/problems/vertical-order-traversal-of-a-binary-tree)|[C++](0901-1000/0987-vertical-order-traversal-of-a-binary-tree.cpp)|Medium|
 -|[988.Smallest String Starting From Leaf](https://leetcode-cn.com/problems/smallest-string-starting-from-leaf)||Medium|
 ✔|[989.Add to Array-Form of Integer](https://leetcode-cn.com/problems/add-to-array-form-of-integer)|[Rust](0901-1000/0989-add-to-array-form-of-integer.rs)|Easy|
 ✔|[990.Satisfiability of Equality Equations](https://leetcode-cn.com/problems/satisfiability-of-equality-equations)|[C++](0901-1000/0990.satisfiability-of-equality-equations.cpp)|Medium|
@@ -1107,7 +1107,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1101.The Earliest Moment When Everyone Become Friends](https://leetcode-cn.com/problems/the-earliest-moment-when-everyone-become-friends)||Medium|
 -|[1102.Path With Maximum Minimum Value](https://leetcode-cn.com/problems/path-with-maximum-minimum-value)||Medium|
 ✔|[1103.Distribute Candies to People](https://leetcode-cn.com/problems/distribute-candies-to-people)|[C++](1101-1200/1103.distribute-candies-to-people.cpp)|Easy|
--|[1104.Path In Zigzag Labelled Binary Tree](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree)||Medium|
+✔|[1104.Path In Zigzag Labelled Binary Tree](https://leetcode-cn.com/problems/path-in-zigzag-labelled-binary-tree)|[C++](1101-1200/1104-path-in-zigzag-labelled-binary-tree.cpp)|Medium|
 -|[1105.Filling Bookcase Shelves](https://leetcode-cn.com/problems/filling-bookcase-shelves)||Medium|
 -|[1106.Parsing A Boolean Expression](https://leetcode-cn.com/problems/parsing-a-boolean-expression)||Hard|
 -|[1107.New Users Daily Count](https://leetcode-cn.com/problems/new-users-daily-count)||Medium|
@@ -1340,7 +1340,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[1334.Find the City With the Smallest Number of Neighbors at a Threshold Distance](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance)||Medium|
 -|[1335.Minimum Difficulty of a Job Schedule](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule)||Hard|
 -|[1336.Number of Transactions per Visit](https://leetcode-cn.com/problems/number-of-transactions-per-visit)||Hard|
-✔|[1337.The K Weakest Rows in a Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix)|[Go](1301-1400/1337-the-k-weakest-rows-in-a-matrix.go)|Easy|
+✔|[1337.The K Weakest Rows in a Matrix](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix)|[C++](1301-1400/1337-the-k-weakest-rows-in-a-matrix.cpp), [Go](1301-1400/1337-the-k-weakest-rows-in-a-matrix.go)|Easy|
 -|[1338.Reduce Array Size to The Half](https://leetcode-cn.com/problems/reduce-array-size-to-the-half)||Medium|
 -|[1339.Maximum Product of Splitted Binary Tree](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree)||Medium|
 -|[1340.Jump Game V](https://leetcode-cn.com/problems/jump-game-v)||Hard|
