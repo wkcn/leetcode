@@ -1,61 +1,38 @@
 #include "common.h"
 
 class Solution {
-public:
+  using LL = long long;
+  public:
     string fractionToDecimal(int numerator, int denominator) {
-      // 注意
-      if (numerator == 0) return "0";
-      using LL = long long;
-      string ans = "";
-      LL num = numerator;
-      LL de = denominator;
-      bool minus = false;
-      if (num < 0) {
-        num = -num;
-        minus = !minus;
-      }
-      if (de < 0) {
-        de = -de;
-        minus = !minus;
-      }
-
-      if (minus)
-        ans += '-';
-
-      ans += to_string(num / de); 
-      num %= de;
-
-      if (num == 0) return ans;
+      LL num = LL(numerator), den = LL(denominator);
+      LL d = num / den;
+      string ans = to_string(d);
+      LL r = num % den;
+      if (r < 0) r = -r;
+      if (r == 0) return ans;
+      if (d == 0 && ((num ^ den) < 0)) ans = "-0";
+      if (den < 0) den = -den;
       ans += '.';
-      unordered_map<LL, int> ma;
-      while (num != 0) {
-        // 注意位置
-        auto p = ma.insert({num, ans.size()});
-        num *= 10;
-        LL d = num / de;
-        num %= de;
-        if (p.second) {
-          ans += to_string(d);
-        } else {
-          ans.insert(ans.begin() + p.first->second, '(');
+      unordered_map<int, int> ma;
+      while (r > 0) {
+        int i = ans.size();
+        auto p = ma.insert({r, i});
+        if (!p.second) {
+          int j = p.first->second;
+          ans.insert(j, "(");
           ans += ')';
           break;
         }
+        ans += (r * 10) / den + '0';
+        r = (r * 10) % den;
       }
       return ans;
     }
 };
 
 int main() {
-  if (1) {
-  cout << Solution().fractionToDecimal(1, 2) << endl;
-  cout << Solution().fractionToDecimal(2, 3) << endl;
-  cout << Solution().fractionToDecimal(-2, 3) << endl;
-  cout << Solution().fractionToDecimal(4, 333) << endl;
-  cout << Solution().fractionToDecimal(10, 7) << endl;
-  cout << Solution().fractionToDecimal(0, 6) << endl;
+  for (auto [n, d] : vector<pair<int,int>>{{1, 2}, {2, 1}, {2, 3}, {4, 333}, {1, 5}, {-50, 8}, {7, -12}}) {
+  cout << Solution().fractionToDecimal(n, d) << endl;
   }
-  cout << Solution().fractionToDecimal(1, 6) << endl;
-  cout << Solution().fractionToDecimal(-1, -6) << endl;
   return 0;
 }
