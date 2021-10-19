@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 44%|███████████████████████                              | 635/1456 [989 days<1279 days,  1.56s/it]
+ 44%|██████████████████████▊                             | 638/1456 [1008 days<1292 days,  1.58s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -118,7 +118,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[110.Balanced Binary Tree](https://leetcode-cn.com/problems/balanced-binary-tree)|[C++](0101-0200/0110.Balanced-Binary-Tree.cpp), [C++](0101-0200/0110.balanced-binary-tree.cpp)|Easy|
 ✔|[111.Minimum Depth of Binary Tree](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree)|[C++](0101-0200/0111.minimum-depth-of-binary-tree.cpp)|Easy|
 ✔|[112.Path Sum](https://leetcode-cn.com/problems/path-sum)|[C++](0101-0200/0112.path-sum.cpp)|Easy|
--|[113.Path Sum II](https://leetcode-cn.com/problems/path-sum-ii)||Medium|
+✔|[113.Path Sum II](https://leetcode-cn.com/problems/path-sum-ii)|[C++](0101-0200/0113-path-sum-ii.cpp)|Medium|
 ✔|[114.Flatten Binary Tree to Linked List](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list)|[C++](0101-0200/0114.flatten-binary-tree-to-linked-list.cpp)|Medium|
 ✔|[115.Distinct Subsequences](https://leetcode-cn.com/problems/distinct-subsequences)|[Rust](0101-0200/0115-distinct-subsequences.rs)|Hard|
 ✔|[116.Populating Next Right Pointers in Each Node](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node)|[C++](0101-0200/0116.populating-next-right-pointers-in-each-node.cpp)|Medium|
@@ -192,7 +192,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[184.Department Highest Salary](https://leetcode-cn.com/problems/department-highest-salary)||Medium|
 -|[185.Department Top Three Salaries](https://leetcode-cn.com/problems/department-top-three-salaries)||Hard|
 -|[186.Reverse Words in a String II](https://leetcode-cn.com/problems/reverse-words-in-a-string-ii)||Medium|
--|[187.Repeated DNA Sequences](https://leetcode-cn.com/problems/repeated-dna-sequences)||Medium|
+✔|[187.Repeated DNA Sequences](https://leetcode-cn.com/problems/repeated-dna-sequences)|[C++](0101-0200/0187-repeated-dna-sequences.cpp)|Medium|
 ✔|[188.Best Time to Buy and Sell Stock IV](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-iv)|[C++](0101-0200/0188.best-time-to-buy-and-sell-stock-iv.cpp)|Hard|
 ✔|[189.Rotate Array](https://leetcode-cn.com/problems/rotate-array)|[C++](0101-0200/0189.rotate-array.cpp)|Easy|
 ✔|[190.Reverse Bits](https://leetcode-cn.com/problems/reverse-bits)|[C++](0101-0200/0190-reverse-bits.cpp)|Easy|
@@ -216,7 +216,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[208.Implement Trie (Prefix Tree)](https://leetcode-cn.com/problems/implement-trie-prefix-tree)|[C++](0201-0300/0208.Implement-Trie.cpp), [Rust](0201-0300/0208-implement-trie-prefix-tree.rs)|Medium|
 ✔|[209.Minimum Size Subarray Sum](https://leetcode-cn.com/problems/minimum-size-subarray-sum)|[C++](0201-0300/0209.minimum-size-subarray-sum.cpp)|Medium|
 ✔|[210.Course Schedule II](https://leetcode-cn.com/problems/course-schedule-ii)|[C++](0201-0300/0210.course-schedule-ii.cpp)|Medium|
--|[211.Add and Search Word - Data structure design](https://leetcode-cn.com/problems/add-and-search-word---data-structure-design)||Medium|
+✔|[211.Add and Search Word - Data structure design](https://leetcode-cn.com/problems/add-and-search-word---data-structure-design)|[C++](0201-0300/0211-design-add-and-search-words-data-structure.cpp)|Medium|
 -|[212.Word Search II](https://leetcode-cn.com/problems/word-search-ii)||Hard|
 ✔|[213.House Robber II](https://leetcode-cn.com/problems/house-robber-ii)|[Python](0201-0300/0213-house-robber-ii.py)|Medium|
 ✔|[214.Shortest Palindrome](https://leetcode-cn.com/problems/shortest-palindrome)|[C++](0201-0300/0214.shortest-palindrome.cpp)|Hard|
