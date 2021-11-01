@@ -1,7 +1,7 @@
 ## Problems
 
 ```
- 44%|██████████████████████▊                             | 638/1456 [1008 days<1292 days,  1.58s/it]
+ 44%|██████████████████████▉                             | 643/1456 [1021 days<1291 days,  1.59s/it]
 ```
 
 Done|Title|Solution(s)|Difficulty|Topic
@@ -235,7 +235,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[227.Basic Calculator II](https://leetcode-cn.com/problems/basic-calculator-ii)||Medium|
 ✔|[228.Summary Ranges](https://leetcode-cn.com/problems/summary-ranges)|[C++](0201-0300/0228.summary-ranges.cpp)|Medium|
 -|[229.Majority Element II](https://leetcode-cn.com/problems/majority-element-ii)||Medium|
--|[230.Kth Smallest Element in a BST](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)||Medium|
+✔|[230.Kth Smallest Element in a BST](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst)|[C++](0201-0300/0230-kth-smallest-element-in-a-bst.cpp)|Medium|
 ✔|[231.Power of Two](https://leetcode-cn.com/problems/power-of-two)|[C++](0201-0300/0231.power-of-two.cpp)|Easy|
 ✔|[232.Implement Queue using Stacks](https://leetcode-cn.com/problems/implement-queue-using-stacks)|[C++](0201-0300/0232.implement-queue-using-stacks.cpp)|Easy|
 ✔|[233.Number of Digit One](https://leetcode-cn.com/problems/number-of-digit-one)|[C++](0201-0300/0233-number-of-digit-one.cpp)|Hard|
@@ -458,7 +458,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[450.Delete Node in a BST](https://leetcode-cn.com/problems/delete-node-in-a-bst)||Medium|
 ✔|[451.Sort Characters By Frequency](https://leetcode-cn.com/problems/sort-characters-by-frequency)|[C++](0401-0500/0451-sort-characters-by-frequency.cpp), [C++](0401-0500/0451.sort-characters-by-frequency.cpp)|Medium|
 ✔|[452.Minimum Number of Arrows to Burst Balloons](https://leetcode-cn.com/problems/minimum-number-of-arrows-to-burst-balloons)|[C++](0401-0500/0452.minimum-number-of-arrows-to-burst-balloons.cpp)|Medium|
-✔|[453.Minimum Moves to Equal Array Elements](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|[C++](0401-0500/0453.minimum-moves-to-equal-array-elements.cpp)|Easy|
+✔|[453.Minimum Moves to Equal Array Elements](https://leetcode-cn.com/problems/minimum-moves-to-equal-array-elements)|[C++](0401-0500/0453-minimum-moves-to-equal-array-elements.cpp), [C++](0401-0500/0453.minimum-moves-to-equal-array-elements.cpp)|Easy|
 ✔|[454.4Sum II](https://leetcode-cn.com/problems/4sum-ii)|[C++](0401-0500/0454.4sum-ii.cpp)|Medium|
 ✔|[455.Assign Cookies](https://leetcode-cn.com/problems/assign-cookies)|[C++](0401-0500/0455.assign-cookies.cpp)|Easy|
 ✔|[456.132 Pattern](https://leetcode-cn.com/problems/132-pattern)|[C++](0401-0500/0456-132-pattern.cpp), [Rust](0401-0500/0456-132-pattern.rs)|Medium|
@@ -481,7 +481,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[473.Matchsticks to Square](https://leetcode-cn.com/problems/matchsticks-to-square)||Medium|
 ✔|[474.Ones and Zeroes](https://leetcode-cn.com/problems/ones-and-zeroes)|[C++](0401-0500/0474-ones-and-zeroes.cpp)|Medium|
 -|[475.Heaters](https://leetcode-cn.com/problems/heaters)||Easy|
--|[476.Number Complement](https://leetcode-cn.com/problems/number-complement)||Easy|
+✔|[476.Number Complement](https://leetcode-cn.com/problems/number-complement)|[C++](0401-0500/0476-number-complement.cpp)|Easy|
 ✔|[477.Total Hamming Distance](https://leetcode-cn.com/problems/total-hamming-distance)|[C++](0401-0500/0477-total-hamming-distance.cpp)|Medium|
 -|[478.Generate Random Point in a Circle](https://leetcode-cn.com/problems/generate-random-point-in-a-circle)||Medium|
 ✔|[479.Largest Palindrome Product](https://leetcode-cn.com/problems/largest-palindrome-product)|[C++](0401-0500/0479.largest-palindrome-product.cpp)|Hard|
@@ -501,7 +501,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[493.Reverse Pairs](https://leetcode-cn.com/problems/reverse-pairs)|[C++](0401-0500/0493.reverse-pairs.cpp)|Hard|
 ✔|[494.Target Sum](https://leetcode-cn.com/problems/target-sum)|[C++](0401-0500/0494-target-sum.cpp), [Python](0401-0500/0494-target-sum.py)|Medium|
 -|[495.Teemo Attacking](https://leetcode-cn.com/problems/teemo-attacking)||Medium|
--|[496.Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i)||Easy|
+✔|[496.Next Greater Element I](https://leetcode-cn.com/problems/next-greater-element-i)|[C++](0401-0500/0496-next-greater-element-i.cpp)|Easy|
 -|[497.Random Point in Non-overlapping Rectangles](https://leetcode-cn.com/problems/random-point-in-non-overlapping-rectangles)||Medium|
 ✔|[498.Diagonal Traverse](https://leetcode-cn.com/problems/diagonal-traverse)|[C++](0401-0500/0498.diagonal-traverse.cpp)|Medium|
 -|[499.The Maze III](https://leetcode-cn.com/problems/the-maze-iii)||Hard|
@@ -580,7 +580,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 ✔|[572.Subtree of Another Tree](https://leetcode-cn.com/problems/subtree-of-another-tree)|[C++](0501-0600/0572.subtree-of-another-tree.cpp)|Easy|
 -|[573.Squirrel Simulation](https://leetcode-cn.com/problems/squirrel-simulation)||Medium|
 -|[574.Winning Candidate](https://leetcode-cn.com/problems/winning-candidate)||Medium|
-✔|[575.Distribute Candies](https://leetcode-cn.com/problems/distribute-candies)|[Rust](0501-0600/0575-distribute-candies.rs)|Easy|
+✔|[575.Distribute Candies](https://leetcode-cn.com/problems/distribute-candies)|[Python](0501-0600/0575-distribute-candies.py), [Rust](0501-0600/0575-distribute-candies.rs)|Easy|
 ✔|[576.Out of Boundary Paths](https://leetcode-cn.com/problems/out-of-boundary-paths)|[C++](0501-0600/0576-out-of-boundary-paths.cpp)|Medium|
 -|[577.Employee Bonus](https://leetcode-cn.com/problems/employee-bonus)||Easy|
 -|[578.Get Highest Answer Rate Question](https://leetcode-cn.com/problems/get-highest-answer-rate-question)||Medium|
@@ -644,7 +644,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[636.Exclusive Time of Functions](https://leetcode-cn.com/problems/exclusive-time-of-functions)||Medium|
 ✔|[637.Average of Levels in Binary Tree](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree)|[C++](0601-0700/0637.average-of-levels-in-binary-tree.cpp)|Easy|
 -|[638.Shopping Offers](https://leetcode-cn.com/problems/shopping-offers)||Medium|
--|[639.Decode Ways II](https://leetcode-cn.com/problems/decode-ways-ii)||Hard|
+✔|[639.Decode Ways II](https://leetcode-cn.com/problems/decode-ways-ii)|[C++](0601-0700/0639-decode-ways-ii.cpp)|Hard|
 ✔|[640.Solve the Equation](https://leetcode-cn.com/problems/solve-the-equation)|[C++](0601-0700/0640.solve-the-equation.cpp)|Medium|
 -|[641.Design Circular Deque](https://leetcode-cn.com/problems/design-circular-deque)||Medium|
 -|[642.Design Search Autocomplete System](https://leetcode-cn.com/problems/design-search-autocomplete-system)||Hard|
@@ -874,7 +874,7 @@ Done|Title|Solution(s)|Difficulty|Topic
 -|[866.Prime Palindrome](https://leetcode-cn.com/problems/prime-palindrome)||Medium|
 ✔|[867.Transpose Matrix](https://leetcode-cn.com/problems/transpose-matrix)|[Python](0801-0900/0867-transpose-matrix.py)|Easy|
 ✔|[868.Binary Gap](https://leetcode-cn.com/problems/binary-gap)|[Rust](0801-0900/0868-binary-gap.rs)|Easy|
--|[869.Reordered Power of 2](https://leetcode-cn.com/problems/reordered-power-of-2)||Medium|
+✔|[869.Reordered Power of 2](https://leetcode-cn.com/problems/reordered-power-of-2)|[Python](0801-0900/0869-reordered-power-of-2.py)|Medium|
 -|[870.Advantage Shuffle](https://leetcode-cn.com/problems/advantage-shuffle)||Medium|
 -|[871.Minimum Number of Refueling Stops](https://leetcode-cn.com/problems/minimum-number-of-refueling-stops)||Hard|
 ✔|[872.Leaf-Similar Trees](https://leetcode-cn.com/problems/leaf-similar-trees)|[C++](0801-0900/0872-leaf-similar-trees.cpp)|Easy|
