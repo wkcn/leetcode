@@ -8,28 +8,29 @@ public:
     }
     
     void addNum(int num) {
-      if (qmin.empty() || num >= qmin.top()) {
-        qmin.push(num);
-        if (qmin.size() > qmax.size() + 1) {
-          qmax.push(qmin.top()); qmin.pop();
-        }
+      auto p = se.insert(num);
+      if (left == se.end()) {
+        left = right = se.begin();
+      } else if (num < *left) {
+        if (left == right) --left;
+        else right = left;
       } else {
-        qmax.push(num);
-        if (qmax.size() > qmin.size()) {
-          qmin.push(qmax.top()); qmax.pop();
-        }
+        if (left == right) ++right;
+        // 当num >= *left时，num可能在left和right之间，也可能在right右边
+        else if (num < *right) {
+          left = right = p;
+        } else left = right;
       }
     }
     
     double findMedian() {
-      if (qmax.size() == qmin.size()) return (qmax.top() + qmin.top()) / 2.0;
-      return qmin.top();
+      return (*left + *right) / 2.0;
     }
 private:
-    priority_queue<int> qmax;
-    priority_queue<int, vector<int>, greater<int>> qmin;
-    // qmax + qmin
+    multiset<int> se;
+    multiset<int>::iterator left = se.end(), right = se.end();
 };
+
 
 int main() {
   MedianFinder mf;
