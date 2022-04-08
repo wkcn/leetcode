@@ -1,20 +1,12 @@
-#include "common.h"
-
 class Solution {
 public:
     int findComplement(int num) {
-        if (num == 0) return 0;
-        unsigned int b = 1 << 31;
-        while (b > 0) {
-          if (b & num) break;
-          b >>= 1;
-        }
-        return (b << 1) - 1 - num;
+        int v = num;
+        v |= v >> 1;
+        v |= v >> 2;
+        v |= v >> 4;
+        v |= v >> 8;
+        v |= v >> 16;
+        return num ^ v;
     }
 };
-
-int main() {
-  cout << Solution().findComplement(5) << endl;
-  cout << Solution().findComplement(1) << endl;
-  return 0;
-}
